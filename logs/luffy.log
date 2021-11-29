@@ -441,3 +441,13 @@ INFO 2021-11-24 21:55:35,203 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 271
 ERROR 2021-11-24 21:55:38,347 exceptions 10 view是:TestView,错误是'name'
 INFO 2021-11-24 21:55:38,349 basehttp 161 "GET /home/ HTTP/1.1" 200 43
 INFO 2021-11-24 21:55:38,353 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 271
+INFO 2021-11-30 01:02:31,177 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-11-30 01:04:32,382 log 224 Not Found: /api/login/
+WARNING 2021-11-30 01:04:32,383 basehttp 161 "GET /api/login/ HTTP/1.1" 404 2444
+ERROR 2021-11-30 01:04:45,112 exceptions 10 view是:LoginView,错误是方法 “GET” 不被允许。
+INFO 2021-11-30 01:04:45,113 basehttp 161 "GET /user/login/ HTTP/1.1" 200 77
+ERROR 2021-11-30 01:04:51,286 exceptions 10 view是:LoginView,错误是__init__() got an unexpected keyword argument 'write'
+INFO 2021-11-30 01:04:51,286 basehttp 161 "POST /user/login/ HTTP/1.1" 200 89
+INFO 2021-11-30 01:06:03,396 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-11-30 01:06:05,350 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 01:06:08,167 basehttp 161 "POST /user/login/ HTTP/1.1" 200 230
