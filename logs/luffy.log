@@ -451,3 +451,28 @@ INFO 2021-11-30 01:04:51,286 basehttp 161 "POST /user/login/ HTTP/1.1" 200 89
 INFO 2021-11-30 01:06:03,396 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
 INFO 2021-11-30 01:06:05,350 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-11-30 01:06:08,167 basehttp 161 "POST /user/login/ HTTP/1.1" 200 230
+INFO 2021-11-30 13:20:59,778 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 13:21:46,152 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 13:24:12,464 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 13:24:37,258 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 13:31:49,784 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 13:33:01,912 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 14:10:06,894 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 14:31:08,680 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 14:33:48,196 autoreload 250 /Users/mac/Virtualenv/luffy/lib/python3.8/site-packages/xadmin/plugins/importexport.py changed, reloading.
+INFO 2021-11-30 14:33:49,283 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 14:37:09,370 autoreload 250 /Users/mac/Virtualenv/luffy/lib/python3.8/site-packages/xadmin/plugins/importexport.py changed, reloading.
+INFO 2021-11-30 14:37:11,016 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 14:39:35,242 autoreload 250 /Users/mac/Virtualenv/luffy/lib/python3.8/site-packages/xadmin/plugins/importexport.py changed, reloading.
+INFO 2021-11-30 14:39:36,317 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 14:41:34,893 autoreload 250 /Users/mac/Virtualenv/luffy/lib/python3.8/site-packages/xadmin/plugins/importexport.py changed, reloading.
+INFO 2021-11-30 14:41:36,336 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 14:46:39,376 autoreload 250 /Users/mac/Virtualenv/luffy/lib/python3.8/site-packages/xadmin/plugins/importexport.py changed, reloading.
+INFO 2021-11-30 14:46:41,312 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 14:57:30,763 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 14:57:58,295 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 14:58:27,219 autoreload 250 /Users/mac/Virtualenv/luffy/lib/python3.8/site-packages/xadmin/plugins/importexport.py changed, reloading.
+INFO 2021-11-30 14:58:28,499 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 15:08:12,562 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 15:11:25,430 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 15:11:49,067 autoreload 636 Watching for file changes with StatReloader
