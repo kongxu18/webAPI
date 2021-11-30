@@ -476,3 +476,156 @@ INFO 2021-11-30 14:58:28,499 autoreload 636 Watching for file changes with StatR
 INFO 2021-11-30 15:08:12,562 autoreload 636 Watching for file changes with StatReloader
 INFO 2021-11-30 15:11:25,430 autoreload 636 Watching for file changes with StatReloader
 INFO 2021-11-30 15:11:49,067 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 15:28:45,192 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 15:29:54,686 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 15:37:06,284 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 15:48:55,074 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-11-30 15:48:56,838 log 224 Not Found: /
+WARNING 2021-11-30 15:48:56,839 basehttp 161 "GET / HTTP/1.1" 404 2281
+WARNING 2021-11-30 15:48:56,989 log 224 Not Found: /favicon.ico
+WARNING 2021-11-30 15:48:56,990 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2332
+INFO 2021-11-30 15:49:04,636 basehttp 161 "GET /xadmin HTTP/1.1" 301 0
+INFO 2021-11-30 15:49:04,716 basehttp 161 "GET /xadmin/ HTTP/1.1" 200 4042
+INFO 2021-11-30 15:49:04,760 basehttp 161 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 2865
+INFO 2021-11-30 15:49:04,763 basehttp 161 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8363
+INFO 2021-11-30 15:49:04,766 basehttp 161 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 336
+INFO 2021-11-30 15:49:04,771 basehttp 161 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 37414
+INFO 2021-11-30 15:49:04,781 basehttp 161 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 6429
+INFO 2021-11-30 15:49:04,784 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2021-11-30 15:49:04,787 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2021-11-30 15:49:04,791 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4049
+INFO 2021-11-30 15:49:04,791 basehttp 161 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 145933
+INFO 2021-11-30 15:49:04,791 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2021-11-30 15:49:04,795 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2021-11-30 15:49:04,797 basehttp 161 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2021-11-30 15:49:04,798 basehttp 161 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4033
+INFO 2021-11-30 15:49:04,800 basehttp 161 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 75484
+INFO 2021-11-30 15:49:04,801 basehttp 161 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+INFO 2021-11-30 15:49:04,902 basehttp 161 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+INFO 2021-11-30 15:49:11,471 basehttp 161 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2021-11-30 15:49:11,524 basehttp 161 "GET /xadmin/ HTTP/1.1" 200 18140
+INFO 2021-11-30 15:49:11,553 basehttp 161 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2021-11-30 15:49:11,553 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2021-11-30 15:49:11,554 basehttp 161 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2021-11-30 15:49:11,564 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-11-30 15:49:14,377 basehttp 161 "GET /xadmin/home/banner/ HTTP/1.1" 200 28177
+INFO 2021-11-30 15:49:14,409 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2021-11-30 15:49:14,410 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2021-11-30 15:49:14,410 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2021-11-30 15:49:14,411 basehttp 161 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2021-11-30 15:49:14,412 basehttp 161 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3578
+INFO 2021-11-30 15:49:14,418 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-11-30 15:49:14,419 basehttp 161 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+ERROR 2021-11-30 16:08:49,005 exceptions 10 view是:TestView,错误是'name'
+INFO 2021-11-30 16:08:49,010 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:08:49,029 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:23:25,905 exceptions 10 view是:LoginView,错误是方法 “GET” 不被允许。
+INFO 2021-11-30 16:23:25,907 basehttp 161 "GET /user/login/ HTTP/1.1" 200 77
+INFO 2021-11-30 16:23:31,276 basehttp 161 "POST /user/login/ HTTP/1.1" 200 230
+INFO 2021-11-30 16:24:40,334 basehttp 161 "POST /user/login/ HTTP/1.1" 200 230
+ERROR 2021-11-30 16:24:48,070 exceptions 10 view是:LoginView,错误是方法 “GET” 不被允许。
+INFO 2021-11-30 16:24:48,071 basehttp 161 "GET /user/login/ HTTP/1.1" 200 77
+INFO 2021-11-30 16:25:19,673 autoreload 250 /Users/mac/PycharmProjects/webAPI/luffyapi/utils/exceptions.py changed, reloading.
+INFO 2021-11-30 16:25:21,513 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-11-30 16:46:25,176 basehttp 161 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2021-11-30 16:46:25,351 basehttp 161 "POST /user/login/ HTTP/1.1" 200 230
+ERROR 2021-11-30 16:51:52,136 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:51:52,138 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:51:52,157 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:51:56,279 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:51:56,280 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:51:56,297 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:56:29,927 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:56:29,931 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:56:29,944 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:56:33,309 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:56:33,313 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:56:33,327 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:56:36,714 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:56:36,716 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:56:36,730 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:56:40,021 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:56:40,024 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:56:40,035 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:56:45,200 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:56:45,202 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:56:45,218 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:56:47,877 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:56:47,880 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:56:47,890 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:56:57,296 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:56:57,296 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:56:57,318 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:57:00,508 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:57:00,512 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:57:00,524 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:57:03,275 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:57:03,278 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:57:03,288 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:57:06,176 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:57:06,179 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:57:06,189 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:57:41,277 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:57:41,278 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:57:41,328 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:57:45,489 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:57:45,490 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:57:45,541 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:57:51,084 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:57:51,087 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:57:51,097 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:57:53,008 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:57:53,011 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:57:53,023 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:58:10,863 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:58:10,864 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:58:10,881 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:58:12,832 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:58:12,833 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:58:12,882 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:58:16,813 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:58:16,816 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:58:16,826 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:58:18,773 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:58:18,776 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:58:18,787 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 16:58:21,510 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 16:58:21,513 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 16:58:21,523 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:03:41,837 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:03:41,841 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:03:41,858 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:03:51,682 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:03:51,684 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:03:51,735 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:04:05,680 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:04:05,681 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:04:05,722 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+INFO 2021-11-30 17:04:56,846 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:05:00,092 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:05:00,093 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:05:00,141 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:05:17,381 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:05:17,382 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:05:17,427 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:06:23,831 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:06:23,833 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:06:23,851 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:06:37,461 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:06:37,462 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:06:37,475 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:06:43,277 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:06:43,278 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:06:43,292 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:07:59,653 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:07:59,654 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:07:59,700 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:09:13,346 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:09:13,347 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:09:13,360 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:09:20,586 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:09:20,587 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:09:20,600 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-11-30 17:09:23,259 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 17:09:23,259 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 17:09:23,274 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
