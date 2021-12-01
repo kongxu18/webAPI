@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'luffyapi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'luffyapi',
-        'USER': 'luffyapi',
+        'NAME': 'luffy',
+        'USER': 'luffy',
         'PASSWORD': '123',
         'PORT': 3306,
-        'HOST': '127.0.0.1'
+        'HOST': '175.24.179.49'
     }
 }
 # import pymysql
