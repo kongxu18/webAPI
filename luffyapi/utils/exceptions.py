@@ -7,7 +7,7 @@ def common_exception_handler(exc, contest):
     """
     contest['view'] 是 TestView 对象，想拿出这个对象的类名
     """
-    log.error('view是:%s,错误是%s' % (contest['view'].__class__.__name__, str(exc)))
+    log.error('出错视图view:%s,错误是%s' % (contest['view'].__class__.__name__, str(exc)))
     # print(exc,type(exc))
     ret = exception_handler(exc, contest)
     if not ret:
