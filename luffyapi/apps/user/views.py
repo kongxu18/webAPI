@@ -8,6 +8,10 @@ from luffyapi.utils.response import APIResponse
 from rest_framework.decorators import action
 import re
 
+from luffyapi.libs.tx_sms import get_code, send_message
+from django.core.cache import cache
+from django.conf import settings
+
 
 class LoginView(ViewSet):
     """
@@ -40,3 +44,22 @@ class LoginView(ViewSet):
                 return APIResponse(code=0, msg='手机号不存在')
         except:
             return APIResponse(code=0, msg='手机号不存在')
+
+    @action(methods=['GET'], detail=False)
+    def send(self, request, *args, **kwargs):
+        """
+        发送验证码接口
+        :return:
+        """
+        telephone = request.query_params.get('telephone')
+        if not re.match('^1[3-9][0-9]{9}$', telephone):
+            return APIResponse(code=0, msg='手机号不合法')
+
+        code = get_code()
+        result = send_message(telephone, code)
+        # sms_cahce_%s
+        cache.set(settings.PHONE_CACHE_KEY % telephone, code, 180)
+        if result == True:
+            return APIResponse(code=1, msg='验证码发送成功')
+        else:
+            return APIResponse(code=0, msg='验证码发送失败', result=result)

@@ -210,13 +210,15 @@ REST_FRAMEWORK = {
 
 from .const import *
 
-
 """
 jwt 过期时间
 """
 import datetime
-JWT_AUTH ={
-    'JWT_EXPIRATION_DELTA':datetime.timedelta(days=7),
+
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=7),
     # 'JWT_RESPONSE_PAYLOAD_HANDLER':''
 }
 
+# 手机验证码缓存的key值
+PHONE_CACHE_KEY = 'sms_cache_%s'

@@ -21,6 +21,7 @@ def send_message(phone,code):
         if result.get('result') == 0:
             return True
         else:
-            return False
+            return code
     except Exception as e:
         log.error('手机号：%s,短信发送失败,错误为：%s'%(phone,str(e)))
+        return code
