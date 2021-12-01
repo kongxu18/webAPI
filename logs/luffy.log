@@ -451,6 +451,7 @@ INFO 2021-11-30 01:04:51,286 basehttp 161 "POST /user/login/ HTTP/1.1" 200 89
 INFO 2021-11-30 01:06:03,396 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
 INFO 2021-11-30 01:06:05,350 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-11-30 01:06:08,167 basehttp 161 "POST /user/login/ HTTP/1.1" 200 230
+INFO 2021-11-30 01:09:50,626 basehttp 161 "POST /user/login/ HTTP/1.1" 200 230
 INFO 2021-11-30 13:20:59,778 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-11-30 13:21:46,152 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-11-30 13:24:12,464 autoreload 636 Watching for file changes with StatReloader
@@ -629,3 +630,68 @@ INFO 2021-11-30 17:09:20,600 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
 ERROR 2021-11-30 17:09:23,259 exceptions 10 出错视图view:TestView,错误是'name'
 INFO 2021-11-30 17:09:23,259 basehttp 161 "GET /home/ HTTP/1.1" 200 43
 INFO 2021-11-30 17:09:23,274 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+INFO 2021-11-30 22:54:08,620 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 22:54:27,044 basehttp 161 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2021-11-30 22:54:27,219 basehttp 161 "POST /user/login/ HTTP/1.1" 200 230
+ERROR 2021-11-30 22:55:14,503 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 22:55:14,506 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 22:55:14,517 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 271
+INFO 2021-11-30 23:27:13,143 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-11-30 23:27:15,179 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 23:36:54,053 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-11-30 23:36:56,091 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-11-30 23:39:03,900 exceptions 10 出错视图view:LoginView,错误是'QueryDict' object is not callable
+INFO 2021-11-30 23:39:03,901 basehttp 161 "GET /user/check_telephone/?telephone=13123456789 HTTP/1.1" 200 70
+INFO 2021-11-30 23:39:40,065 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-11-30 23:39:42,039 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 23:39:42,379 basehttp 161 "GET /user/check_telephone/?telephone=13123456789 HTTP/1.1" 200 42
+INFO 2021-11-30 23:40:20,306 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-11-30 23:40:22,307 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 23:40:24,200 basehttp 161 "GET /user/check_telephone/?telephone=13123456789 HTTP/1.1" 200 42
+INFO 2021-11-30 23:40:29,138 basehttp 161 "GET /user/check_telephone/?telephone=13123456788 HTTP/1.1" 200 28
+INFO 2021-11-30 23:40:42,035 basehttp 161 "GET /user/check_telephone/?telephone=13123456789 HTTP/1.1" 200 42
+INFO 2021-11-30 23:41:16,508 basehttp 161 "GET /user/check_telephone/?telephone=13123456789 HTTP/1.1" 200 42
+INFO 2021-11-30 23:42:44,401 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-11-30 23:42:46,326 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 23:42:46,611 basehttp 161 "GET /user/check_telephone/?telephone=13123456789 HTTP/1.1" 200 34
+INFO 2021-11-30 23:42:54,036 basehttp 161 "GET /user/check_telephone/?telephone=13123456782 HTTP/1.1" 200 34
+INFO 2021-11-30 23:42:55,396 basehttp 161 "GET /user/check_telephone/?telephone=13123456782 HTTP/1.1" 200 34
+INFO 2021-11-30 23:43:05,246 basehttp 161 "GET /user/check_telephone/?telephone=1312345678233 HTTP/1.1" 200 37
+INFO 2021-11-30 23:43:12,418 basehttp 161 "GET /user/check_telephone/?telephone=13123456783 HTTP/1.1" 200 34
+INFO 2021-11-30 23:43:26,834 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-11-30 23:43:28,770 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 23:43:31,363 basehttp 161 "GET /user/check_telephone/?telephone=13123456783 HTTP/1.1" 200 34
+INFO 2021-11-30 23:43:38,962 basehttp 161 "GET /user/check_telephone/?telephone=13123456789 HTTP/1.1" 200 34
+INFO 2021-11-30 23:43:45,402 basehttp 161 "GET /user/check_telephone/?telephone=13123456783 HTTP/1.1" 200 34
+INFO 2021-11-30 23:43:55,139 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-11-30 23:43:57,267 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 23:44:00,716 basehttp 161 "GET /user/check_telephone/?telephone=13123456783 HTTP/1.1" 200 34
+INFO 2021-11-30 23:44:41,673 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-11-30 23:44:43,554 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-11-30 23:44:49,603 basehttp 161 "GET /user/check_telephone/?telephone=13123456783 HTTP/1.1" 200 37
+INFO 2021-11-30 23:44:54,506 basehttp 161 "GET /user/check_telephone/?telephone=13123456789 HTTP/1.1" 200 34
+INFO 2021-11-30 23:44:58,186 basehttp 161 "GET /user/check_telephone/?telephone=13123456780 HTTP/1.1" 200 37
+ERROR 2021-11-30 23:46:12,770 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 23:46:12,772 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 23:46:12,784 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 271
+ERROR 2021-11-30 23:47:04,815 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 23:47:04,816 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 23:47:04,829 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 271
+ERROR 2021-11-30 23:50:09,543 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 23:50:09,544 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 23:50:09,556 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 271
+INFO 2021-11-30 23:52:05,584 basehttp 161 "GET /media/banner/banner2.png HTTP/1.1" 304 0
+INFO 2021-11-30 23:52:05,584 basehttp 161 "GET /media/banner/banner1.png HTTP/1.1" 304 0
+INFO 2021-11-30 23:52:05,585 basehttp 161 "GET /media/banner/banner3.png HTTP/1.1" 304 0
+ERROR 2021-11-30 23:52:06,510 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 23:52:06,511 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 23:52:06,523 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 271
+ERROR 2021-11-30 23:52:58,799 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 23:52:58,800 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 23:52:58,809 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 271
+ERROR 2021-11-30 23:53:39,677 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 23:53:39,678 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 23:53:39,690 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 271
+ERROR 2021-11-30 23:53:45,378 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-11-30 23:53:45,380 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-11-30 23:53:45,390 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 271
