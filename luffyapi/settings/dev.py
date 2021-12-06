@@ -82,9 +82,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'luffyapi',
         'USER': 'luffyapi',
-        'PASSWORD': '123',
+        'PASSWORD': '333333',
         'PORT': 3306,
-        'HOST': 'localhost'
+        'HOST': '175.24.179.83'
     }
 }
 # import pymysql
@@ -206,6 +206,10 @@ CORS_ORIGIN_ALLOW_ALL = True
 REST_FRAMEWORK = {
     # 捕获所有出现的错误
     'EXCEPTION_HANDLER': 'luffyapi.utils.exceptions.common_exception_handler',
+    # 手机频率限制配置
+    'DEFAULT_THROTTLE_RATES': {
+        'sms': '1/m'
+    }
 }
 
 from .const import *

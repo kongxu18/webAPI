@@ -12,6 +12,8 @@ from luffyapi.libs.tx_sms import get_code, send_message
 from django.core.cache import cache
 from django.conf import settings
 
+from .throttlings import SMSThrottling
+
 
 class LoginView(ViewSet):
     """
@@ -45,6 +47,27 @@ class LoginView(ViewSet):
         except:
             return APIResponse(code=0, msg='手机号不存在')
 
+    @action(methods=['POST'], detail=False)
+    def code_login(self, request, *args, **kwargs):
+        """
+        验证码登录
+        :param request:
+        :param args:
+        :param kwargs:
+        :return:
+        """
+        ser = serializer.CodeUserSerializer(data=request.data)
+        if ser.is_valid():
+            token = ser.context['token']
+            username = ser.context['user'].username
+            return APIResponse(token=token, username=username)
+        else:
+            return APIResponse(code=0, msg=ser.errors)
+
+
+class SendSmsView(ViewSet):
+    throttle_classes = [SMSThrottling]
+
     @action(methods=['GET'], detail=False)
     def send(self, request, *args, **kwargs):
         """
@@ -53,6 +76,8 @@ class LoginView(ViewSet):
         """
         telephone = request.query_params.get('telephone')
         if not re.match('^1[3-9][0-9]{9}$', telephone):
+            SMSThrottling.is_send = False
+
             return APIResponse(code=0, msg='手机号不合法')
 
         code = get_code()
@@ -62,4 +87,5 @@ class LoginView(ViewSet):
         if result == True:
             return APIResponse(code=1, msg='验证码发送成功')
         else:
+            SMSThrottling.is_send = False
             return APIResponse(code=0, msg='验证码发送失败', result=result)
