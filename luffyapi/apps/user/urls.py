@@ -6,6 +6,8 @@ from rest_framework.routers import SimpleRouter
 router = SimpleRouter()
 router.register('', views.LoginView, 'login')
 router.register('', views.SendSmsView, 'send')
+# user/
+router.register('register', views.RegisterView, 'register')
 urlpatterns = [
 
 ]

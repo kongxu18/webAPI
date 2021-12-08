@@ -2,7 +2,8 @@ from django.shortcuts import render
 
 # Create your views here.
 from user import models
-from rest_framework.viewsets import ViewSet
+from rest_framework.viewsets import ViewSet, GenericViewSet
+from rest_framework.mixins import CreateModelMixin
 from . import serializer
 from luffyapi.utils.response import APIResponse
 from rest_framework.decorators import action
@@ -89,3 +90,14 @@ class SendSmsView(ViewSet):
         else:
             SMSThrottling.is_send = False
             return APIResponse(code=0, msg='验证码发送失败', result=result)
+
+
+class RegisterView(GenericViewSet, CreateModelMixin):
+    queryset = models.User.objects.all()
+    serializer_class = serializer.UserRegisterSerializer
+
+    def create(self, request, *args, **kwargs):
+        # 重写父类的create ，更改返回的东西
+        response = super().create(request, *args, **kwargs)
+        username = response.data.get('username')
+        return APIResponse(code=1, msg='注册成功', username=username)

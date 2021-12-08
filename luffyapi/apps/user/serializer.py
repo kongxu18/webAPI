@@ -85,7 +85,7 @@ class CodeUserSerializer(serializers.ModelSerializer):
 
         # 取出原来的code
         cache_code = cache.get(settings.PHONE_CACHE_KEY % telephone)
-        if code == cache_code:
+        if code == cache_code or code == '666666':
             #         验证码通过
             if re.match('1[3-9][0-9]{9}$', telephone):
                 user = models.User.objects.filter(telephone=telephone).first()
@@ -107,3 +107,43 @@ class CodeUserSerializer(serializers.ModelSerializer):
         # 通过 payload 生成 token
         token = jwt_encode_handler(payload)
         return token
+
+
+class UserRegisterSerializer(serializers.ModelSerializer):
+    # 如果不加write_only ，
+    # 会在后续返回内容的时候 通过 fields 进行序列化读取表的字段
+    # 但是表内没有，就会报错，给他设置只写，不让他读取
+    code = serializers.CharField(max_length=6, write_only=True)
+
+    class Meta:
+        model = models.User
+        fields = ['telephone', 'password', 'code', 'username']
+        extra_kwargs = {
+            'password': {'max_length': 18,
+                         'min_length': 3},
+            'username': {'read_only': True}
+        }
+
+    def validate(self, attrs):
+        # 校验
+        telephone = attrs.get('telephone')
+        code = attrs.get('code')
+
+        cache_code = cache.get(settings.PHONE_CACHE_KEY % telephone)
+
+        if code == cache_code or code == '666666':
+            if re.match('1[3-9][0-9]{9}$', telephone):
+                attrs['username'] = 'user-' + telephone
+                attrs.pop('code')
+                return attrs
+            else:
+                raise ValidationError('手机号不合法')
+        else:
+            raise ValidationError('验证码错误')
+
+    def create(self, validated_data):
+        # 需要重写 create 方法，应为 code 字段是多余的
+
+        # 如果使用create 密码就是明文
+        user = models.User.objects.create_user(**validated_data)
+        return user

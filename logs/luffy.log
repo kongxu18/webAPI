@@ -73,3 +73,79 @@ INFO 2021-12-07 00:08:04,528 autoreload 251 D:\PythonProjects\djangoProject\luff
 INFO 2021-12-07 00:08:06,670 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-12-07 00:08:25,141 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
 INFO 2021-12-07 00:08:27,287 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-07 00:32:41,496 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-07 00:36:09,076 basehttp 161 "GET /user/check_telephone/?telephone=15000876583 HTTP/1.1" 200 34
+INFO 2021-12-07 00:36:36,083 basehttp 161 "GET /user/check_telephone/?telephone=15000876583 HTTP/1.1" 200 34
+INFO 2021-12-07 00:37:17,673 basehttp 161 "GET /user/check_telephone/?telephone=15000876583 HTTP/1.1" 200 34
+INFO 2021-12-07 23:14:18,281 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-07 23:14:22,637 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-07 23:14:22,639 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-07 23:14:22,702 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-12-07 23:14:45,211 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-07 23:14:45,212 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-07 23:14:45,278 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+INFO 2021-12-07 23:16:52,133 basehttp 161 "GET /user/check_telephone/?telephone=15000876583 HTTP/1.1" 200 34
+INFO 2021-12-07 23:16:56,895 basehttp 161 "GET /user/send/?telephone=15000876583 HTTP/1.1" 200 40
+INFO 2021-12-07 23:17:12,138 basehttp 161 "OPTIONS /user/code_login/ HTTP/1.1" 200 0
+INFO 2021-12-07 23:17:12,199 basehttp 161 "POST /user/code_login/ HTTP/1.1" 200 230
+INFO 2021-12-07 23:58:58,262 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-07 23:59:00,268 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:00:01,935 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:00:04,072 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:05:23,940 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:05:26,330 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:06:00,140 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:06:02,284 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:08:26,205 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:08:28,373 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:08:47,396 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:08:49,453 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:10:37,353 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:10:39,409 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:12:00,031 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:12:01,997 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-08 00:12:39,755 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-08 00:12:39,756 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-08 00:12:39,813 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+INFO 2021-12-08 00:13:32,690 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:13:34,923 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:15:33,824 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-12-08 00:15:35,904 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:16:33,877 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-12-08 00:16:36,145 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:17:38,988 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2021-12-08 00:17:41,093 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-08 00:19:46,942 exceptions 10 出错视图view:RegisterView,错误是Got AttributeError when attempting to get a value for field `code` on serializer `UserRegisterSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+Original exception text was: 'User' object has no attribute 'code'.
+INFO 2021-12-08 00:19:46,943 basehttp 161 "POST /user/ HTTP/1.1" 200 319
+INFO 2021-12-08 00:26:41,836 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:26:43,857 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:28:27,782 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:28:29,886 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:28:48,787 basehttp 161 "POST /user/ HTTP/1.1" 201 129
+INFO 2021-12-08 00:30:30,214 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:30:32,317 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:34:18,884 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-12-08 00:34:21,023 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:34:26,195 basehttp 161 "POST /user/ HTTP/1.1" 200 61
+INFO 2021-12-08 00:36:45,053 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\serializer.py changed, reloading.
+INFO 2021-12-08 00:36:47,137 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 23:07:38,464 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-08 23:07:43,873 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-08 23:07:43,874 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-08 23:07:43,928 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+INFO 2021-12-08 23:07:58,605 basehttp 161 "GET /user/check_telephone/?telephone=15000876583 HTTP/1.1" 200 34
+INFO 2021-12-08 23:08:35,136 basehttp 161 "GET /user/check_telephone/?telephone=15000876584 HTTP/1.1" 200 37
+INFO 2021-12-08 23:08:42,440 basehttp 161 "OPTIONS /user/register HTTP/1.1" 301 0
+INFO 2021-12-08 23:08:51,715 basehttp 161 "OPTIONS /user/register HTTP/1.1" 301 0
+INFO 2021-12-08 23:08:53,290 basehttp 161 "OPTIONS /user/register HTTP/1.1" 301 0
+INFO 2021-12-08 23:08:53,475 basehttp 161 "OPTIONS /user/register HTTP/1.1" 301 0
+INFO 2021-12-08 23:08:53,633 basehttp 161 "OPTIONS /user/register HTTP/1.1" 301 0
+INFO 2021-12-08 23:09:07,832 basehttp 161 "OPTIONS /user/register HTTP/1.1" 301 0
+WARNING 2021-12-08 23:10:21,829 log 224 Not Found: /user/
+WARNING 2021-12-08 23:10:21,830 basehttp 161 "POST /user/ HTTP/1.1" 404 3257
+INFO 2021-12-08 23:10:33,100 basehttp 161 "POST /user/register/ HTTP/1.1" 200 61
+INFO 2021-12-08 23:11:04,424 basehttp 161 "GET /user/check_telephone/?telephone=15000876585 HTTP/1.1" 200 37
+INFO 2021-12-08 23:11:09,680 basehttp 161 "OPTIONS /user/register/ HTTP/1.1" 200 0
+INFO 2021-12-08 23:11:09,891 basehttp 161 "POST /user/register/ HTTP/1.1" 200 61
