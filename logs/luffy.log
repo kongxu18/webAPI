@@ -149,3 +149,29 @@ INFO 2021-12-08 23:10:33,100 basehttp 161 "POST /user/register/ HTTP/1.1" 200 61
 INFO 2021-12-08 23:11:04,424 basehttp 161 "GET /user/check_telephone/?telephone=15000876585 HTTP/1.1" 200 37
 INFO 2021-12-08 23:11:09,680 basehttp 161 "OPTIONS /user/register/ HTTP/1.1" 200 0
 INFO 2021-12-08 23:11:09,891 basehttp 161 "POST /user/register/ HTTP/1.1" 200 61
+INFO 2021-12-13 00:11:30,629 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 00:11:59,691 basehttp 161 "GET /user/send/?telephone=13123456780 HTTP/1.1" 200 40
+INFO 2021-12-13 00:13:07,908 basehttp 161 "GET /user/send/?telephone=15000876583 HTTP/1.1" 200 40
+INFO 2021-12-13 00:19:56,443 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2021-12-13 00:19:58,463 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 00:20:26,389 basehttp 161 "GET /user/send/?telephone=15000876583 HTTP/1.1" 200 40
+INFO 2021-12-13 00:22:07,062 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 00:22:13,039 basehttp 161 "GET /user/send/?telephone=15000876583 HTTP/1.1" 200 40
+INFO 2021-12-13 00:29:40,752 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2021-12-13 00:29:42,788 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-13 00:29:53,793 exceptions 10 出错视图view:SendSmsView,错误是Redis URL must specify one of the following schemes (redis://, rediss://, unix://)
+INFO 2021-12-13 00:29:53,795 basehttp 161 "GET /user/send/?telephone=15000876583 HTTP/1.1" 200 118
+INFO 2021-12-13 00:30:11,473 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2021-12-13 00:30:13,585 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-13 00:30:19,753 exceptions 10 出错视图view:SendSmsView,错误是Authentication required.
+INFO 2021-12-13 00:30:19,754 basehttp 161 "GET /user/send/?telephone=15000876583 HTTP/1.1" 200 60
+INFO 2021-12-13 00:30:57,081 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2021-12-13 00:30:59,128 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 00:31:03,255 basehttp 161 "GET /user/send/?telephone=15000876583 HTTP/1.1" 200 40
+INFO 2021-12-13 00:33:40,271 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-12-13 00:33:42,345 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 00:33:46,974 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-12-13 00:33:48,665 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 00:35:09,569 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2021-12-13 00:35:11,612 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 00:35:54,705 basehttp 161 "GET /user/send/?telephone=15000876583 HTTP/1.1" 200 40

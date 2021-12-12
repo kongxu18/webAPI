@@ -85,11 +85,20 @@ class SendSmsView(ViewSet):
         result = send_message(telephone, code)
         # sms_cahce_%s
         cache.set(settings.PHONE_CACHE_KEY % telephone, code, 180)
+
+        # 使用redis conn
+        conn = self.cache_redis()
+        conn.set(settings.PHONE_CACHE_KEY % telephone, code, 180)
         if result == True:
             return APIResponse(code=1, msg='验证码发送成功')
         else:
             SMSThrottling.is_send = False
             return APIResponse(code=0, msg='验证码发送失败', result=result)
+
+    def cache_redis(self):
+        # 使用redis 连接操作缓存
+        from django_redis import get_redis_connection
+        return get_redis_connection('default')
 
 
 class RegisterView(GenericViewSet, CreateModelMixin):

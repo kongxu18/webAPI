@@ -226,3 +226,18 @@ JWT_AUTH = {
 
 # 手机验证码缓存的key值
 PHONE_CACHE_KEY = 'sms_cache_%s'
+
+# django 默认不支持作为缓存
+# 缓存
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis://175.24.179.83:6379',
+
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+            'CONNECTION_POOL_KWARGS': {"max_connections": 100},
+            'PASSWORD':'333333',
+        }
+    }
+}
