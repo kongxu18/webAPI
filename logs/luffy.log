@@ -175,3 +175,10 @@ INFO 2021-12-13 00:33:48,665 autoreload 637 Watching for file changes with StatR
 INFO 2021-12-13 00:35:09,569 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\user\views.py changed, reloading.
 INFO 2021-12-13 00:35:11,612 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-12-13 00:35:54,705 basehttp 161 "GET /user/send/?telephone=15000876583 HTTP/1.1" 200 40
+INFO 2021-12-13 22:33:46,517 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 22:34:01,236 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\home\views.py changed, reloading.
+INFO 2021-12-13 22:34:03,230 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 22:34:19,023 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\home\views.py changed, reloading.
+INFO 2021-12-13 22:34:21,178 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 22:34:43,376 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\home\views.py changed, reloading.
+INFO 2021-12-13 22:34:45,418 autoreload 637 Watching for file changes with StatReloader

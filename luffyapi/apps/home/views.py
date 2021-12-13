@@ -21,7 +21,8 @@ from rest_framework.viewsets import GenericViewSet
 from . import models
 from . import serializer
 from django.conf import settings
-
+from rest_framework.response import Response
+from django.core.cache import cache
 
 # class BannerView(GenericAPIView, ListModelMixin):
 class BannerView(GenericViewSet, ListModelMixin):
@@ -33,3 +34,22 @@ class BannerView(GenericViewSet, ListModelMixin):
     queryset = models.Banner.objects. \
         filter(is_delete=False, is_show=True).order_by('display_order')[:counter]
     serializer_class = serializer.BannerModelSerializer
+
+    def list(self, request, *args, **kwargs):
+        """
+        对首页轮播图信息进行缓存
+        :param request:
+        :param args:
+        :param kwargs:
+        :return:
+        """
+
+        # 首先拿数据
+        banner_list = cache.get('banner_list')
+        if not banner_list:
+            # 从数据库拿
+            response = super().list(request, *args, **kwargs)
+            # 加到缓存
+            cache.set('banner_list',response.data,60*60*24*7)
+            return response
+        return Response(data=banner_list)
