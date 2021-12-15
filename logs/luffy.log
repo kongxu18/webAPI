@@ -182,3 +182,75 @@ INFO 2021-12-13 22:34:19,023 autoreload 251 D:\PythonProjects\djangoProject\luff
 INFO 2021-12-13 22:34:21,178 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-12-13 22:34:43,376 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\home\views.py changed, reloading.
 INFO 2021-12-13 22:34:45,418 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-13 22:35:45,429 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-13 22:35:45,431 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-13 22:35:45,550 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+ERROR 2021-12-13 22:36:28,753 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-13 22:36:28,753 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-13 22:36:28,848 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 2
+WARNING 2021-12-13 22:36:32,894 log 224 Not Found: /
+WARNING 2021-12-13 22:36:32,895 basehttp 161 "GET / HTTP/1.1" 404 2396
+WARNING 2021-12-13 22:36:32,988 log 224 Not Found: /favicon.ico
+WARNING 2021-12-13 22:36:32,988 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2447
+INFO 2021-12-13 22:36:39,407 basehttp 161 "GET /xadmin HTTP/1.1" 301 0
+INFO 2021-12-13 22:36:39,460 basehttp 161 "GET /xadmin/ HTTP/1.1" 200 4042
+INFO 2021-12-13 22:36:39,492 basehttp 161 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 2865
+INFO 2021-12-13 22:36:39,504 basehttp 161 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 145933
+INFO 2021-12-13 22:36:39,505 basehttp 161 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8363
+INFO 2021-12-13 22:36:39,506 basehttp 161 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 37414
+INFO 2021-12-13 22:36:39,512 basehttp 161 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 336
+INFO 2021-12-13 22:36:39,518 basehttp 161 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 6429
+INFO 2021-12-13 22:36:39,520 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2021-12-13 22:36:39,524 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4049
+INFO 2021-12-13 22:36:39,524 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2021-12-13 22:36:39,525 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2021-12-13 22:36:39,530 basehttp 161 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4033
+INFO 2021-12-13 22:36:39,531 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2021-12-13 22:36:39,531 basehttp 161 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 75484
+INFO 2021-12-13 22:36:39,531 basehttp 161 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2021-12-13 22:36:39,532 basehttp 161 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+INFO 2021-12-13 22:36:39,578 basehttp 161 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+INFO 2021-12-13 22:36:42,835 basehttp 161 "POST /xadmin/ HTTP/1.1" 200 4150
+INFO 2021-12-13 22:36:42,863 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4049
+INFO 2021-12-13 22:36:52,626 basehttp 161 "POST /xadmin/ HTTP/1.1" 200 4279
+INFO 2021-12-13 22:36:52,652 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4049
+INFO 2021-12-13 22:36:58,184 basehttp 161 "POST /xadmin/ HTTP/1.1" 200 4279
+INFO 2021-12-13 22:36:58,211 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4049
+INFO 2021-12-13 22:37:02,948 basehttp 161 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2021-12-13 22:37:03,079 basehttp 161 "GET /xadmin/ HTTP/1.1" 200 18140
+INFO 2021-12-13 22:37:03,101 basehttp 161 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2021-12-13 22:37:03,101 basehttp 161 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2021-12-13 22:37:03,102 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2021-12-13 22:37:03,189 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-13 22:37:07,668 basehttp 161 "GET /xadmin/home/banner/ HTTP/1.1" 200 28177
+INFO 2021-12-13 22:37:07,711 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2021-12-13 22:37:07,712 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2021-12-13 22:37:07,712 basehttp 161 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3578
+INFO 2021-12-13 22:37:07,713 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2021-12-13 22:37:07,713 basehttp 161 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2021-12-13 22:37:07,716 basehttp 161 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2021-12-13 22:37:07,802 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-13 22:37:09,812 basehttp 161 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 23932
+INFO 2021-12-13 22:37:09,839 basehttp 161 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2021-12-13 22:37:09,840 basehttp 161 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2021-12-13 22:37:09,841 basehttp 161 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2021-12-13 22:37:09,910 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-13 22:38:11,663 basehttp 161 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2021-12-13 22:38:11,803 basehttp 161 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 24363
+INFO 2021-12-13 22:38:11,919 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-13 22:38:35,603 basehttp 161 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2021-12-13 22:38:35,746 basehttp 161 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 24363
+INFO 2021-12-13 22:38:35,875 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-13 22:39:08,252 basehttp 161 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2021-12-13 22:39:08,413 basehttp 161 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 24363
+INFO 2021-12-13 22:39:08,527 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-13 22:39:22,603 basehttp 161 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2021-12-13 22:39:22,845 basehttp 161 "GET /xadmin/home/banner/ HTTP/1.1" 200 31362
+INFO 2021-12-13 22:39:22,871 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2021-12-13 22:39:22,950 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+ERROR 2021-12-13 22:39:27,480 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-13 22:39:27,481 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-13 22:39:27,572 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
+INFO 2021-12-13 22:39:27,589 basehttp 161 "GET /media/banner/banner1_a9XFvhz.png HTTP/1.1" 200 115271
+INFO 2021-12-13 22:39:27,589 basehttp 161 "GET /media/banner/banner3_IMOiS62.png HTTP/1.1" 200 111031
+INFO 2021-12-13 22:39:27,599 basehttp 161 "GET /media/banner/banner2_hpmtsKz.png HTTP/1.1" 200 772079
