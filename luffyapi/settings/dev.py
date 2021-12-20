@@ -37,6 +37,7 @@ INSTALLED_APPS = [
 
     'user',  # 应为apps 目录已经被加入环境变量，所以可以直接能找到
     'home',
+    'course',
 ]
 
 MIDDLEWARE = [

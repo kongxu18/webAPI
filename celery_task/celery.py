@@ -1,7 +1,14 @@
 """
 异步任务
 """
+import os
+
+import django
 from celery import Celery
+
+# 加载django环境
+os.environ.setdefault('DJANGO_SETTINGS_MODULE','luffyapi.settings.dev')
+django.setup()
 
 # 任务中间件 存储任务
 broker = 'redis://:333333@175.24.179.83:6379/1'
@@ -11,7 +18,7 @@ backend = 'redis://:333333@175.24.179.83:6379/2'
 
 # 这里把任务文件进行注册
 app = Celery(__name__, broker=broker, backend=backend
-             , include=['celery_task.task_1', 'celery_task.task_2'])
+             , include=['celery_task.home_task'])
 
 # 执行定时任务
 # 时区
@@ -26,9 +33,9 @@ from celery.schedules import crontab
 # crontab(hour=8,day_of_week=1) 每周一早8点执行
 app.conf.beat_schedule = {
     'add-task': {
-        'task': 'celery_task.task_1.add',
-        'schedule': timedelta(seconds=3),
-        'args': (300, 50)
+        'task': 'celery_task.home_task.banner_update',
+        'schedule': timedelta(seconds=30),
+        # 'args': (300, 50)
     }
 }
 """

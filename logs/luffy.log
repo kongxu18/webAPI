@@ -254,3 +254,178 @@ INFO 2021-12-13 22:39:27,572 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
 INFO 2021-12-13 22:39:27,589 basehttp 161 "GET /media/banner/banner1_a9XFvhz.png HTTP/1.1" 200 115271
 INFO 2021-12-13 22:39:27,589 basehttp 161 "GET /media/banner/banner3_IMOiS62.png HTTP/1.1" 200 111031
 INFO 2021-12-13 22:39:27,599 basehttp 161 "GET /media/banner/banner2_hpmtsKz.png HTTP/1.1" 200 772079
+INFO 2021-12-16 22:57:33,733 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-16 23:11:12,627 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-16 23:11:12,631 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-16 23:11:12,666 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
+INFO 2021-12-16 23:11:12,695 basehttp 161 "GET /media/banner/banner1_a9XFvhz.png HTTP/1.1" 200 115271
+INFO 2021-12-16 23:11:12,697 basehttp 161 "GET /media/banner/banner3_IMOiS62.png HTTP/1.1" 200 111031
+INFO 2021-12-16 23:11:12,701 basehttp 161 "GET /media/banner/banner2_hpmtsKz.png HTTP/1.1" 200 772079
+INFO 2021-12-20 22:48:35,065 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 22:49:05,142 basehttp 161 "GET /xadmin HTTP/1.1" 301 0
+INFO 2021-12-20 22:49:05,347 basehttp 161 "GET /xadmin/ HTTP/1.1" 200 23111
+INFO 2021-12-20 22:49:05,388 basehttp 161 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 145933
+INFO 2021-12-20 22:49:05,393 basehttp 161 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 2865
+INFO 2021-12-20 22:49:05,394 basehttp 161 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 37414
+INFO 2021-12-20 22:49:05,395 basehttp 161 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8363
+INFO 2021-12-20 22:49:05,404 basehttp 161 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 336
+INFO 2021-12-20 22:49:05,405 basehttp 161 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 6429
+INFO 2021-12-20 22:49:05,412 basehttp 161 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2021-12-20 22:49:05,422 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2021-12-20 22:49:05,427 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2021-12-20 22:49:05,429 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2021-12-20 22:49:05,430 basehttp 161 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2021-12-20 22:49:05,432 basehttp 161 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+INFO 2021-12-20 22:49:05,438 basehttp 161 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 75484
+INFO 2021-12-20 22:49:05,439 basehttp 161 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2021-12-20 22:49:05,439 basehttp 161 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4033
+INFO 2021-12-20 22:49:05,439 basehttp 161 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2021-12-20 22:49:05,440 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2021-12-20 22:49:05,510 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 22:49:05,579 basehttp 161 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+WARNING 2021-12-20 22:49:06,188 log 224 Not Found: /favicon.ico
+WARNING 2021-12-20 22:49:06,189 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2554
+INFO 2021-12-20 22:49:42,307 basehttp 161 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 32798
+INFO 2021-12-20 22:49:42,359 basehttp 161 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3578
+INFO 2021-12-20 22:49:42,368 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2021-12-20 22:49:42,368 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2021-12-20 22:49:42,370 basehttp 161 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2021-12-20 22:49:42,370 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2021-12-20 22:49:42,371 basehttp 161 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2021-12-20 22:49:42,454 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 22:59:04,139 basehttp 161 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 36210
+INFO 2021-12-20 22:59:04,177 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2021-12-20 22:59:04,256 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 22:59:21,291 basehttp 161 "GET /xadmin/course/coursecategory/2/update/ HTTP/1.1" 200 26489
+INFO 2021-12-20 22:59:21,405 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 22:59:23,949 basehttp 161 "GET /xadmin/course/course/ HTTP/1.1" 200 38984
+INFO 2021-12-20 22:59:24,064 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 22:59:30,242 basehttp 161 "GET /xadmin/course/course/3/update/ HTTP/1.1" 200 34502
+INFO 2021-12-20 22:59:30,268 basehttp 161 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2021-12-20 22:59:30,271 basehttp 161 "GET /static/xadmin/vendor/select2/css/select2.css HTTP/1.1" 200 17358
+INFO 2021-12-20 22:59:30,283 basehttp 161 "GET /static/xadmin/vendor/selectize/css/selectize.css HTTP/1.1" 200 8589
+INFO 2021-12-20 22:59:30,288 basehttp 161 "GET /static/xadmin/vendor/selectize/css/selectize.bootstrap3.css HTTP/1.1" 200 10766
+INFO 2021-12-20 22:59:30,304 basehttp 161 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2021-12-20 22:59:30,314 basehttp 161 "GET /static/xadmin/vendor/selectize/js/selectize.js HTTP/1.1" 200 104098
+INFO 2021-12-20 22:59:30,319 basehttp 161 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2021-12-20 22:59:30,326 basehttp 161 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2021-12-20 22:59:30,335 basehttp 161 "GET /static/xadmin/vendor/select2/js/select2.js HTTP/1.1" 200 151811
+INFO 2021-12-20 22:59:30,341 basehttp 161 "GET /static/xadmin/vendor/select2/js/i18n/zh-hans.js HTTP/1.1" 200 768
+INFO 2021-12-20 22:59:30,346 basehttp 161 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2021-12-20 22:59:30,354 basehttp 161 "GET /media/courses/lyy_linux.png HTTP/1.1" 200 90593
+INFO 2021-12-20 22:59:30,381 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 22:59:47,954 basehttp 161 "GET /xadmin/course/course/ HTTP/1.1" 200 38984
+INFO 2021-12-20 22:59:48,067 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 22:59:49,017 basehttp 161 "GET /xadmin/course/teacher/ HTTP/1.1" 200 37714
+INFO 2021-12-20 22:59:49,116 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 22:59:50,823 basehttp 161 "GET /xadmin/course/course/ HTTP/1.1" 200 38984
+INFO 2021-12-20 22:59:50,930 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 22:59:58,926 basehttp 161 "GET /xadmin/course/course/ HTTP/1.1" 200 38984
+INFO 2021-12-20 22:59:59,032 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 23:00:00,391 basehttp 161 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 34918
+INFO 2021-12-20 23:00:00,453 basehttp 161 "GET /media/courses/alex_python.png HTTP/1.1" 200 87343
+INFO 2021-12-20 23:00:00,506 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 23:00:07,215 basehttp 161 "GET /xadmin/course/teacher/ HTTP/1.1" 200 37714
+INFO 2021-12-20 23:00:07,313 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 23:00:11,285 basehttp 161 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 38815
+INFO 2021-12-20 23:00:11,398 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 23:00:53,176 basehttp 161 "GET /xadmin/course/coursesection/ HTTP/1.1" 200 37526
+INFO 2021-12-20 23:00:53,292 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+INFO 2021-12-20 23:01:03,632 basehttp 161 "GET /xadmin/course/coursesection/6/update/ HTTP/1.1" 200 29850
+INFO 2021-12-20 23:01:03,745 basehttp 161 "GET /xadmin/jsi18n/ HTTP/1.1" 200 9527
+ERROR 2021-12-20 23:04:14,116 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-20 23:04:14,117 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-20 23:04:14,232 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
+INFO 2021-12-20 23:04:14,249 basehttp 161 "GET /media/banner/banner2_hpmtsKz.png HTTP/1.1" 304 0
+INFO 2021-12-20 23:04:14,249 basehttp 161 "GET /media/banner/banner3_IMOiS62.png HTTP/1.1" 304 0
+INFO 2021-12-20 23:04:14,250 basehttp 161 "GET /media/banner/banner1_a9XFvhz.png HTTP/1.1" 304 0
+ERROR 2021-12-20 23:04:23,322 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-20 23:04:23,324 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-20 23:04:23,333 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
+INFO 2021-12-20 23:14:56,885 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-20 23:14:59,194 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:16:53,880 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-20 23:16:56,125 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:18:55,793 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-20 23:18:58,135 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:20:32,743 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\urls.py changed, reloading.
+INFO 2021-12-20 23:20:34,887 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:21:31,183 basehttp 161 "GET /course/categories HTTP/1.1" 301 0
+ERROR 2021-12-20 23:21:31,294 exceptions 10 出错视图view:CourseCategory,错误是Class CourseCategorySerializer missing "Meta.model" attribute
+INFO 2021-12-20 23:21:31,295 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 99
+ERROR 2021-12-20 23:21:39,610 exceptions 10 出错视图view:CourseCategory,错误是Class CourseCategorySerializer missing "Meta.model" attribute
+INFO 2021-12-20 23:21:39,611 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 99
+INFO 2021-12-20 23:22:55,421 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-20 23:22:57,989 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:22:59,056 basehttp 161 "GET /course/categories HTTP/1.1" 301 0
+INFO 2021-12-20 23:22:59,152 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-20 23:23:03,999 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-20 23:24:47,847 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-20 23:24:50,057 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:25:52,566 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-20 23:25:54,993 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:26:29,809 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-20 23:26:32,020 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:28:28,630 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-20 23:28:30,884 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:28:55,772 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-20 23:28:58,458 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:29:41,866 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-20 23:29:43,976 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:30:25,320 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-20 23:30:27,762 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:30:51,410 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-20 23:30:53,646 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:32:07,142 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-20 23:32:09,405 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:32:28,088 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-20 23:32:30,251 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:58:56,504 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-20 23:58:58,739 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-20 23:59:23,438 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-20 23:59:25,706 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:01:11,650 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-21 00:01:14,246 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:01:44,041 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-21 00:01:46,293 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:03:47,839 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\urls.py changed, reloading.
+INFO 2021-12-21 00:03:50,089 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:04:07,232 basehttp 161 "GET /course/free HTTP/1.1" 301 0
+ERROR 2021-12-21 00:04:07,239 exceptions 10 出错视图view:CourseView,错误是'CourseView' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+INFO 2021-12-21 00:04:07,240 basehttp 161 "GET /course/free/ HTTP/1.1" 200 151
+INFO 2021-12-21 00:04:41,945 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-21 00:04:44,241 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:04:46,154 basehttp 161 "GET /course/free HTTP/1.1" 301 0
+ERROR 2021-12-21 00:04:46,165 exceptions 10 出错视图view:CourseView,错误是CourseModelSerializer() takes no arguments
+INFO 2021-12-21 00:04:46,165 basehttp 161 "GET /course/free/ HTTP/1.1" 200 78
+INFO 2021-12-21 00:05:27,133 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-21 00:05:29,376 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:05:30,312 basehttp 161 "GET /course/free HTTP/1.1" 301 0
+INFO 2021-12-21 00:05:30,426 basehttp 161 "GET /course/free/ HTTP/1.1" 200 1194
+INFO 2021-12-21 00:10:55,635 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-21 00:10:58,318 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:11:07,079 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-21 00:11:09,616 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:11:22,249 basehttp 161 "GET /course/free?page=1 HTTP/1.1" 301 0
+INFO 2021-12-21 00:11:22,341 basehttp 161 "GET /course/free/?page=1 HTTP/1.1" 200 699
+INFO 2021-12-21 00:11:34,632 basehttp 161 "GET /course/free/?page=2 HTTP/1.1" 200 409
+INFO 2021-12-21 00:11:41,324 basehttp 161 "GET /course/free/?page=3 HTTP/1.1" 200 387
+INFO 2021-12-21 00:11:55,139 basehttp 161 "GET /course/free/?page=1 HTTP/1.1" 200 699
+INFO 2021-12-21 00:12:17,954 basehttp 161 "GET /course/free/?page=1&size=2 HTTP/1.1" 200 993
+INFO 2021-12-21 00:20:56,516 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2021-12-21 00:20:58,830 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:22:56,517 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-21 00:22:58,822 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:23:06,169 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-21 00:23:08,589 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:24:56,630 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2021-12-21 00:24:58,895 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:28:56,844 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2021-12-21 00:28:59,151 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:29:48,177 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2021-12-21 00:29:50,307 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:32:45,717 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-21 00:32:48,050 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 00:32:49,103 basehttp 161 "GET /course/free/?page=1&size=2 HTTP/1.1" 200 1449
+INFO 2021-12-21 00:38:55,832 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2021-12-21 00:38:58,266 autoreload 637 Watching for file changes with StatReloader

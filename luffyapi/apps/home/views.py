@@ -32,7 +32,7 @@ class BannerView(GenericViewSet, ListModelMixin):
     # 无论有多少数据就展示三条
     counter = settings.BANNER_COUNTER
     queryset = models.Banner.objects. \
-        filter(is_delete=False, is_show=True).order_by('display_order')[:counter]
+        filter(is_delete=False, is_show=True).order_by('orders')[:counter]
     serializer_class = serializer.BannerModelSerializer
 
     def list(self, request, *args, **kwargs):
