@@ -429,3 +429,31 @@ INFO 2021-12-21 00:32:48,050 autoreload 637 Watching for file changes with StatR
 INFO 2021-12-21 00:32:49,103 basehttp 161 "GET /course/free/?page=1&size=2 HTTP/1.1" 200 1449
 INFO 2021-12-21 00:38:55,832 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\models.py changed, reloading.
 INFO 2021-12-21 00:38:58,266 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-21 23:58:30,067 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-12-21 23:59:22,494 log 224 Not Found: /course/
+WARNING 2021-12-21 23:59:22,590 basehttp 161 "GET /course/ HTTP/1.1" 404 2811
+INFO 2021-12-21 23:59:36,579 basehttp 161 "GET /course/free HTTP/1.1" 301 0
+INFO 2021-12-21 23:59:36,697 basehttp 161 "GET /course/free/ HTTP/1.1" 200 1051
+INFO 2021-12-22 00:00:12,329 basehttp 161 "GET /course/free?page=1 HTTP/1.1" 301 0
+INFO 2021-12-22 00:00:12,426 basehttp 161 "GET /course/free/?page=1 HTTP/1.1" 200 1051
+INFO 2021-12-22 00:00:20,394 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-22 00:00:49,796 basehttp 161 "GET /course/free?page=1&size=5 HTTP/1.1" 301 0
+INFO 2021-12-22 00:00:49,962 basehttp 161 "GET /course/free/?page=1&size=5 HTTP/1.1" 200 1806
+ERROR 2021-12-22 00:01:41,350 exceptions 10 出错视图view:RegisterView,错误是{'telephone': [ErrorDetail(string='具有 telephone 的 用户 已存在。', code='unique')]}
+INFO 2021-12-22 00:01:41,352 basehttp 161 "POST /user/register/ HTTP/1.1" 200 90
+WARNING 2021-12-22 00:02:41,016 log 224 Not Found: /jwtdata/test/
+WARNING 2021-12-22 00:02:41,016 basehttp 161 "GET /jwtdata/test/ HTTP/1.1" 404 2560
+INFO 2021-12-22 00:04:54,452 basehttp 161 "GET /course/free?page=1&size=5&ordering=id HTTP/1.1" 301 0
+INFO 2021-12-22 00:04:54,605 basehttp 161 "GET /course/free/?page=1&size=5&ordering=id HTTP/1.1" 200 1806
+INFO 2021-12-22 00:05:11,222 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id HTTP/1.1" 301 0
+INFO 2021-12-22 00:05:11,372 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id HTTP/1.1" 200 1806
+INFO 2021-12-22 00:06:15,499 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-22 00:06:17,500 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-22 00:12:50,566 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-22 00:12:52,569 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-22 00:15:03,446 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id&search=2 HTTP/1.1" 301 0
+INFO 2021-12-22 00:15:03,532 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id&search=2 HTTP/1.1" 200 442
+INFO 2021-12-22 00:15:42,852 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id&search=2 HTTP/1.1" 301 0
+INFO 2021-12-22 00:15:42,967 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id&search=2 HTTP/1.1" 200 442
+INFO 2021-12-22 00:42:20,356 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-22 00:42:22,533 autoreload 637 Watching for file changes with StatReloader
