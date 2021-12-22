@@ -457,3 +457,19 @@ INFO 2021-12-22 00:15:42,852 basehttp 161 "GET /course/free?page=1&size=5&orderi
 INFO 2021-12-22 00:15:42,967 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id&search=2 HTTP/1.1" 200 442
 INFO 2021-12-22 00:42:20,356 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
 INFO 2021-12-22 00:42:22,533 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 00:02:16,199 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 00:02:39,360 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id&search=2 HTTP/1.1" 301 0
+ERROR 2021-12-23 00:02:39,373 exceptions 10 出错视图view:CourseView,错误是Related Field got invalid lookup: icontains
+INFO 2021-12-23 00:02:39,374 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id&search=2 HTTP/1.1" 200 79
+INFO 2021-12-23 00:09:06,843 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-23 00:09:08,857 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 00:11:18,549 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-23 00:11:20,790 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 00:11:21,687 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id&search=2 HTTP/1.1" 301 0
+INFO 2021-12-23 00:11:21,831 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id&search=2 HTTP/1.1" 200 1806
+INFO 2021-12-23 00:11:39,140 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id&search=1 HTTP/1.1" 301 0
+INFO 2021-12-23 00:11:39,270 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id&search=1 HTTP/1.1" 200 1806
+INFO 2021-12-23 00:13:04,965 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id&course_category=1 HTTP/1.1" 301 0
+INFO 2021-12-23 00:13:05,106 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id&course_category=1 HTTP/1.1" 200 1403
+INFO 2021-12-23 00:42:29,547 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-23 00:42:31,596 autoreload 637 Watching for file changes with StatReloader
