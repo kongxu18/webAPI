@@ -473,3 +473,57 @@ INFO 2021-12-23 00:13:04,965 basehttp 161 "GET /course/free?page=1&size=5&orderi
 INFO 2021-12-23 00:13:05,106 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id&course_category=1 HTTP/1.1" 200 1403
 INFO 2021-12-23 00:42:29,547 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
 INFO 2021-12-23 00:42:31,596 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 23:37:45,499 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 23:38:28,172 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id HTTP/1.1" 301 0
+INFO 2021-12-23 23:38:28,357 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id HTTP/1.1" 200 3192
+INFO 2021-12-23 23:39:00,033 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id HTTP/1.1" 301 0
+ERROR 2021-12-23 23:39:00,546 log 224 Internal Server Error: /course/free/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Virtualenvs\luffy\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\Virtualenvs\luffy\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "D:\Virtualenvs\luffy\lib\site-packages\rest_framework\renderers.py", line 702, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+  File "D:\Virtualenvs\luffy\lib\site-packages\rest_framework\renderers.py", line 634, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+  File "D:\Virtualenvs\luffy\lib\site-packages\django_filters\rest_framework\backends.py", line 103, in to_html
+    template = loader.get_template(self.template)
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/crispy_form.html
+ERROR 2021-12-23 23:39:00,551 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id HTTP/1.1" 500 124247
+WARNING 2021-12-23 23:39:00,955 log 224 Not Found: /favicon.ico
+WARNING 2021-12-23 23:39:00,956 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2554
+ERROR 2021-12-23 23:39:59,411 log 224 Internal Server Error: /course/free/
+Traceback (most recent call last):
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Virtualenvs\luffy\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\Virtualenvs\luffy\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "D:\Virtualenvs\luffy\lib\site-packages\rest_framework\renderers.py", line 702, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+  File "D:\Virtualenvs\luffy\lib\site-packages\rest_framework\renderers.py", line 634, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+  File "D:\Virtualenvs\luffy\lib\site-packages\django_filters\rest_framework\backends.py", line 103, in to_html
+    template = loader.get_template(self.template)
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/crispy_form.html
+ERROR 2021-12-23 23:39:59,415 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id HTTP/1.1" 500 124384
+INFO 2021-12-23 23:40:06,522 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id HTTP/1.1" 301 0
+INFO 2021-12-23 23:40:06,656 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id HTTP/1.1" 200 3192
+INFO 2021-12-23 23:56:31,371 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-23 23:56:33,663 autoreload 637 Watching for file changes with StatReloader

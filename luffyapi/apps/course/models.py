@@ -125,7 +125,7 @@ class Course(BaseModel):
         return self.get_status_display()
 
     @property
-    def course_sections(self):
+    def sections_list(self):
         ll = []
         # 根据课程取出所有章节（反向查询，字段名.all()）
         course_chapter_list = self.coursechapters.all()
