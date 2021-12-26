@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    'django_filters',
 
     'xadmin',  # xadmin
     'crispy_forms',  # 渲染表格模块

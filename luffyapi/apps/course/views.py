@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 
 from rest_framework.viewsets import GenericViewSet
-from rest_framework.mixins import ListModelMixin
+from rest_framework.mixins import ListModelMixin,RetrieveModelMixin
 from . import models, serializer
 
 
@@ -26,8 +26,10 @@ from rest_framework.filters import OrderingFilter, SearchFilter
 
 from django_filters.rest_framework import DjangoFilterBackend
 
+from .filters import CourseFilterSet
 
-class CourseView(GenericViewSet, ListModelMixin):
+
+class CourseView(GenericViewSet, ListModelMixin,RetrieveModelMixin):
     queryset = models.Course.objects.filter(is_delete=False,
                                             is_show=True).order_by('orders')
     serializer_class = serializer.CourseModelSerializer
@@ -42,5 +44,14 @@ class CourseView(GenericViewSet, ListModelMixin):
     # 配置过滤的字段
     # search_fields = ['id']
 
+    """
+    django-filter 过滤有2种方式
+    1.配置类，配置字段filter_fields
+    2.配置类，配置字段filter_class 可支持区间过滤
+    """
+
     # 使用的扩展django-filter 配置的搜索字段
-    filter_fields = ['course_category']
+    # filter_fields = ['course_category']
+
+    # 使用自定制的filter 进行区间过滤
+    filter_class = CourseFilterSet

@@ -34,4 +34,4 @@ class CourseModelSerializer(ModelSerializer):
                   'attachment_path','pub_sections','price',
                   'students','period','sections','level',
                   'teacher', 'course_type_name', 'level_name',
-                  'status_name', 'sections_list']
+                  'status_name', 'section_list']

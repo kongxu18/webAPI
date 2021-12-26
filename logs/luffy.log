@@ -527,3 +527,90 @@ INFO 2021-12-23 23:40:06,522 basehttp 161 "GET /course/free?page=1&size=5&orderi
 INFO 2021-12-23 23:40:06,656 basehttp 161 "GET /course/free/?page=1&size=5&ordering=-id HTTP/1.1" 200 3192
 INFO 2021-12-23 23:56:31,371 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
 INFO 2021-12-23 23:56:33,663 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-26 23:47:05,351 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-26 23:47:09,945 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2021-12-26 23:47:11,228 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-26 23:47:46,680 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2021-12-26 23:47:48,917 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-26 23:47:54,867 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2021-12-26 23:47:56,140 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-26 23:48:09,247 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2021-12-26 23:48:11,260 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-26 23:48:54,782 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-26 23:48:56,947 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-26 23:49:26,307 basehttp 161 "GET /course/free HTTP/1.1" 301 0
+ERROR 2021-12-26 23:49:26,401 exceptions 10 出错视图view:CourseView,错误是'FilterSetMetaclass' object is not iterable
+INFO 2021-12-26 23:49:26,438 basehttp 161 "GET /course/free/ HTTP/1.1" 200 5373
+INFO 2021-12-26 23:49:26,521 basehttp 161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-12-26 23:49:26,523 basehttp 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-12-26 23:49:26,532 basehttp 161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-12-26 23:49:26,536 basehttp 161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-12-26 23:49:26,538 basehttp 161 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-12-26 23:49:26,543 basehttp 161 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-12-26 23:49:26,544 basehttp 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-12-26 23:49:26,547 basehttp 161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-12-26 23:49:26,548 basehttp 161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-12-26 23:49:26,549 basehttp 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-12-26 23:49:26,581 basehttp 161 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-12-26 23:49:27,052 log 224 Not Found: /favicon.ico
+WARNING 2021-12-26 23:49:27,052 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2554
+INFO 2021-12-26 23:51:22,601 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-26 23:51:24,806 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-26 23:51:25,566 basehttp 161 "GET /course/free/ HTTP/1.1" 200 11632
+INFO 2021-12-26 23:51:25,730 basehttp 161 "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+WARNING 2021-12-26 23:51:41,201 log 224 Not Found: /course/free/size=5
+WARNING 2021-12-26 23:51:41,202 basehttp 161 "GET /course/free/size=5 HTTP/1.1" 404 2846
+INFO 2021-12-26 23:51:47,685 basehttp 161 "GET /course/free/?size=5 HTTP/1.1" 200 14588
+INFO 2021-12-26 23:52:30,192 basehttp 161 "GET /course/free/?size=5&course_category=1 HTTP/1.1" 200 13085
+INFO 2021-12-26 23:57:23,877 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\filters.py changed, reloading.
+INFO 2021-12-26 23:57:25,964 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-26 23:58:17,384 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\filters.py changed, reloading.
+INFO 2021-12-26 23:58:19,632 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-26 23:59:35,418 basehttp 161 "GET /course/free/?size=5&course_category=1&min_price=90 HTTP/1.1" 200 10750
+INFO 2021-12-27 00:00:09,121 basehttp 161 "GET /course/free/?size=5&course_category=1&min_price=90&max_price=91 HTTP/1.1" 200 8881
+INFO 2021-12-27 00:00:14,718 basehttp 161 "GET /course/free/?size=5&course_category=1&min_price=90&max_price=99 HTTP/1.1" 200 8881
+INFO 2021-12-27 00:00:19,775 basehttp 161 "GET /course/free/?size=5&course_category=1&min_price=90&max_price=100 HTTP/1.1" 200 10960
+INFO 2021-12-27 00:01:52,878 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\filters.py changed, reloading.
+INFO 2021-12-27 00:01:55,619 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-27 00:03:30,665 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\filters.py changed, reloading.
+INFO 2021-12-27 00:03:33,057 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-27 00:04:06,875 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\filters.py changed, reloading.
+INFO 2021-12-27 00:04:09,483 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-27 00:04:30,836 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-27 00:04:32,952 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-27 00:05:05,273 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-27 00:05:05,277 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-27 00:05:05,314 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
+INFO 2021-12-27 00:05:05,364 basehttp 161 "GET /media/banner/banner1_a9XFvhz.png HTTP/1.1" 200 115271
+INFO 2021-12-27 00:05:05,371 basehttp 161 "GET /media/banner/banner3_IMOiS62.png HTTP/1.1" 200 111031
+INFO 2021-12-27 00:05:05,398 basehttp 161 "GET /media/banner/banner2_hpmtsKz.png HTTP/1.1" 200 772079
+INFO 2021-12-27 00:18:22,988 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-27 00:18:23,061 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=1 HTTP/1.1" 200 815
+INFO 2021-12-27 00:18:23,078 basehttp 161 "GET /media/courses/lyy_linux.png HTTP/1.1" 200 90593
+INFO 2021-12-27 00:18:51,312 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=2 HTTP/1.1" 200 1189
+INFO 2021-12-27 00:18:51,332 basehttp 161 "GET /media/courses/mjj_python.png HTTP/1.1" 200 444859
+INFO 2021-12-27 00:18:52,925 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=1 HTTP/1.1" 200 815
+INFO 2021-12-27 00:18:53,647 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=2 HTTP/1.1" 200 1189
+INFO 2021-12-27 00:18:59,009 basehttp 161 "GET /course/free/?ordering=-id&page_size=10&page=1 HTTP/1.1" 200 816
+INFO 2021-12-27 00:18:59,104 basehttp 161 "GET /course/free/?ordering=-id&page_size=10&page=1 HTTP/1.1" 200 816
+INFO 2021-12-27 00:19:03,306 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 815
+INFO 2021-12-27 00:19:09,136 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-27 00:19:09,191 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=1 HTTP/1.1" 200 815
+INFO 2021-12-27 00:19:11,366 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=2 HTTP/1.1" 200 1189
+INFO 2021-12-27 00:19:12,676 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=1 HTTP/1.1" 200 815
+INFO 2021-12-27 00:19:14,620 basehttp 161 "GET /course/free/?ordering=-id&page_size=3&page=1 HTTP/1.1" 200 815
+INFO 2021-12-27 00:19:46,957 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\paginations.py changed, reloading.
+INFO 2021-12-27 00:19:49,658 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-27 00:19:50,357 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-27 00:19:50,409 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=1 HTTP/1.1" 200 1832
+INFO 2021-12-27 00:19:56,279 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3192
+INFO 2021-12-27 00:19:56,298 basehttp 161 "GET /media/courses/alex_python.png HTTP/1.1" 200 87343
+INFO 2021-12-27 00:20:23,613 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-27 00:20:23,676 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=1 HTTP/1.1" 200 1832
+INFO 2021-12-27 00:22:35,801 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2021-12-27 00:22:38,135 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-27 00:22:45,665 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-27 00:22:48,063 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-27 00:23:05,158 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-27 00:23:05,243 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=1 HTTP/1.1" 200 1830
+INFO 2021-12-27 00:23:10,138 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189

@@ -12,3 +12,20 @@ class MyFilter(BaseFilterBackend):
         # params = queryset.Get.get('xxx')
         # queryset.filter('''''')
         return queryset[:1]
+
+
+from django_filters.filterset import FilterSet
+from . import models
+
+from django_filters import filters
+
+
+class CourseFilterSet(FilterSet):
+    # 实现区间过滤
+    # 意思是 price 大于 min 小于max
+    min_price = filters.NumberFilter(field_name='price', lookup_expr='gt')
+    max_price = filters.NumberFilter(field_name='price', lookup_expr='lt')
+
+    class Meta:
+        model = models.Course
+        fields = ['course_category']
