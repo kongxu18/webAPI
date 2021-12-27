@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 
 from rest_framework.viewsets import GenericViewSet
-from rest_framework.mixins import ListModelMixin,RetrieveModelMixin
+from rest_framework.mixins import ListModelMixin, RetrieveModelMixin
 from . import models, serializer
 
 
@@ -29,7 +29,7 @@ from django_filters.rest_framework import DjangoFilterBackend
 from .filters import CourseFilterSet
 
 
-class CourseView(GenericViewSet, ListModelMixin,RetrieveModelMixin):
+class CourseView(GenericViewSet, ListModelMixin, RetrieveModelMixin):
     queryset = models.Course.objects.filter(is_delete=False,
                                             is_show=True).order_by('orders')
     serializer_class = serializer.CourseModelSerializer
@@ -55,3 +55,15 @@ class CourseView(GenericViewSet, ListModelMixin,RetrieveModelMixin):
 
     # 使用自定制的filter 进行区间过滤
     filter_class = CourseFilterSet
+
+
+class CourseChapterView(GenericViewSet, ListModelMixin):
+    """
+    章节接口
+    """
+    queryset = models.CourseChapter.objects.filter(is_delete=False, is_show=True)
+    serializer_class = serializer.CourseChapterSerializer
+
+    # 查出来所有章节，需要根据 course 对章节进行过滤
+    filter_backends = [DjangoFilterBackend]
+    filter_fields = ['course']

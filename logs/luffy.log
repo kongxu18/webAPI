@@ -614,3 +614,189 @@ INFO 2021-12-27 00:22:48,063 autoreload 637 Watching for file changes with StatR
 INFO 2021-12-27 00:23:05,158 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
 INFO 2021-12-27 00:23:05,243 basehttp 161 "GET /course/free/?ordering=-id&page_size=2&page=1 HTTP/1.1" 200 1830
 INFO 2021-12-27 00:23:10,138 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-27 23:25:30,713 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-27 23:25:32,533 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-27 23:25:32,534 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+ERROR 2021-12-27 23:25:32,627 exceptions 10 出错视图view:BannerView,错误是MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+INFO 2021-12-27 23:25:32,628 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 379
+ERROR 2021-12-27 23:25:58,003 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-27 23:25:58,004 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+ERROR 2021-12-27 23:25:58,090 exceptions 10 出错视图view:BannerView,错误是MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+INFO 2021-12-27 23:25:58,091 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 379
+ERROR 2021-12-27 23:26:03,884 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-27 23:26:03,884 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+ERROR 2021-12-27 23:26:03,965 exceptions 10 出错视图view:BannerView,错误是MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+INFO 2021-12-27 23:26:03,965 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 379
+ERROR 2021-12-27 23:26:11,509 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-27 23:26:11,511 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+ERROR 2021-12-27 23:26:11,611 exceptions 10 出错视图view:BannerView,错误是MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+INFO 2021-12-27 23:26:11,612 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 379
+ERROR 2021-12-27 23:39:40,787 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-27 23:39:40,788 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-27 23:40:13,675 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-27 23:40:17,940 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-27 23:40:17,944 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+ERROR 2021-12-27 23:40:18,067 exceptions 10 出错视图view:BannerView,错误是MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+INFO 2021-12-27 23:40:18,069 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 379
+ERROR 2021-12-27 23:43:13,322 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-27 23:43:13,323 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+ERROR 2021-12-27 23:43:15,385 exceptions 10 出错视图view:BannerView,错误是Error 10061 connecting to 175.24.179.83:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2021-12-27 23:43:15,386 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 134
+ERROR 2021-12-27 23:43:38,089 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-27 23:43:38,090 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-27 23:43:38,208 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
+INFO 2021-12-27 23:44:11,990 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-27 23:44:12,073 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-27 23:44:27,732 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-27 23:44:27,802 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-27 23:46:23,116 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-27 23:46:23,235 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-27 23:57:48,749 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-27 23:57:48,849 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-27 23:58:56,665 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-27 23:58:56,751 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:00:45,223 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:00:45,303 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:01:07,306 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:01:07,388 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:01:35,894 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:01:35,969 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:01:55,640 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:01:55,732 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:02:14,900 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:02:15,228 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+ERROR 2021-12-28 00:06:24,814 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-28 00:06:24,814 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-28 00:06:27,611 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:06:27,701 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:06:27,715 basehttp 161 "GET /media/courses/lyy_linux.png HTTP/1.1" 200 90593
+INFO 2021-12-28 00:06:27,717 basehttp 161 "GET /media/courses/alex_python.png HTTP/1.1" 200 87343
+INFO 2021-12-28 00:06:27,720 basehttp 161 "GET /media/courses/mjj_python.png HTTP/1.1" 200 444859
+ERROR 2021-12-28 00:06:43,768 exceptions 10 出错视图view:BannerView,错误是Error while reading from socket: (10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)
+INFO 2021-12-28 00:06:43,769 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 204
+ERROR 2021-12-28 00:07:03,779 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-28 00:07:03,779 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-28 00:07:03,800 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
+INFO 2021-12-28 00:07:03,812 basehttp 161 "GET /media/banner/banner1_a9XFvhz.png HTTP/1.1" 200 115271
+INFO 2021-12-28 00:07:03,813 basehttp 161 "GET /media/banner/banner3_IMOiS62.png HTTP/1.1" 200 111031
+INFO 2021-12-28 00:07:03,818 basehttp 161 "GET /media/banner/banner2_hpmtsKz.png HTTP/1.1" 200 772079
+INFO 2021-12-28 00:07:05,421 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:07:05,481 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:08:34,191 basehttp 161 "GET /course/free/?ordering=-id&course_category=1&page_size=5&page=1 HTTP/1.1" 200 2490
+INFO 2021-12-28 00:08:36,541 basehttp 161 "GET /course/free/?ordering=-id&course_category=2&page_size=5&page=1 HTTP/1.1" 200 750
+INFO 2021-12-28 00:08:38,466 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:08:45,761 basehttp 161 "GET /course/free/?ordering=-students&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:08:47,109 basehttp 161 "GET /course/free/?ordering=-price&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:08:48,960 basehttp 161 "GET /course/free/?ordering=price&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:08:49,881 basehttp 161 "GET /course/free/?ordering=-price&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:08:51,541 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:11:26,247 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:11:26,363 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+ERROR 2021-12-28 00:18:44,104 exceptions 10 出错视图view:CourseView,错误是
+INFO 2021-12-28 00:18:44,105 basehttp 161 "GET /course/free/undefined/ HTTP/1.1" 200 57
+WARNING 2021-12-28 00:18:44,120 log 224 Not Found: /course/chapters/
+WARNING 2021-12-28 00:18:44,120 basehttp 161 "GET /course/chapters/ HTTP/1.1" 404 3042
+ERROR 2021-12-28 00:20:03,924 exceptions 10 出错视图view:CourseView,错误是
+INFO 2021-12-28 00:20:03,927 basehttp 161 "GET /course/free/undefined/ HTTP/1.1" 200 57
+WARNING 2021-12-28 00:20:03,929 log 224 Not Found: /course/chapters/
+WARNING 2021-12-28 00:20:03,929 basehttp 161 "GET /course/chapters/ HTTP/1.1" 404 3042
+ERROR 2021-12-28 00:20:10,700 exceptions 10 出错视图view:CourseView,错误是
+INFO 2021-12-28 00:20:10,704 basehttp 161 "GET /course/free/undefined/ HTTP/1.1" 200 57
+WARNING 2021-12-28 00:20:10,707 log 224 Not Found: /course/chapters/
+WARNING 2021-12-28 00:20:10,707 basehttp 161 "GET /course/chapters/ HTTP/1.1" 404 3042
+ERROR 2021-12-28 00:21:55,622 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-28 00:21:55,625 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+ERROR 2021-12-28 00:21:59,126 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-28 00:21:59,127 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-28 00:21:59,157 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
+ERROR 2021-12-28 00:22:02,540 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2021-12-28 00:22:02,541 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2021-12-28 00:22:02,554 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
+INFO 2021-12-28 00:22:03,468 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:22:03,566 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+ERROR 2021-12-28 00:22:05,612 exceptions 10 出错视图view:CourseView,错误是
+INFO 2021-12-28 00:22:05,615 basehttp 161 "GET /course/free/undefined/ HTTP/1.1" 200 57
+WARNING 2021-12-28 00:22:05,618 log 224 Not Found: /course/chapters/
+WARNING 2021-12-28 00:22:05,619 basehttp 161 "GET /course/chapters/ HTTP/1.1" 404 3042
+ERROR 2021-12-28 00:22:14,566 exceptions 10 出错视图view:BannerView,错误是Error while reading from socket: (10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)
+INFO 2021-12-28 00:22:14,569 basehttp 75 - Broken pipe from ('127.0.0.1', 51270)
+
+ERROR 2021-12-28 00:22:21,814 exceptions 10 出错视图view:CourseView,错误是
+INFO 2021-12-28 00:22:21,817 basehttp 161 "GET /course/free/undefined/ HTTP/1.1" 200 57
+WARNING 2021-12-28 00:22:21,820 log 224 Not Found: /course/chapters/
+WARNING 2021-12-28 00:22:21,820 basehttp 161 "GET /course/chapters/ HTTP/1.1" 404 3042
+WARNING 2021-12-28 00:24:30,396 log 224 Not Found: /course/chapters/
+WARNING 2021-12-28 00:24:30,397 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 404 3051
+INFO 2021-12-28 00:24:30,481 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+INFO 2021-12-28 00:24:30,521 basehttp 161 "GET /media/teacher/lyy_icon.png HTTP/1.1" 200 114110
+INFO 2021-12-28 00:28:25,696 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-28 00:28:27,261 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:29:21,725 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-28 00:29:22,928 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:29:47,460 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-28 00:29:48,830 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:34:43,938 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-28 00:34:44,829 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:35:23,373 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2021-12-28 00:35:24,554 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:35:43,641 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-28 00:35:44,968 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:36:12,831 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-28 00:36:14,137 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:37:41,153 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\serializer.py changed, reloading.
+INFO 2021-12-28 00:37:42,546 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-12-28 00:37:48,677 log 224 Not Found: /course/chapters/
+WARNING 2021-12-28 00:37:48,678 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 404 3442
+INFO 2021-12-28 00:37:48,756 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+INFO 2021-12-28 00:38:34,995 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\urls.py changed, reloading.
+INFO 2021-12-28 00:38:36,494 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:38:37,172 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+INFO 2021-12-28 00:38:37,200 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 200 1526
+INFO 2021-12-28 00:39:02,145 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+INFO 2021-12-28 00:39:02,152 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 200 1526
+INFO 2021-12-28 00:39:12,998 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+INFO 2021-12-28 00:39:13,033 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 200 1526
+INFO 2021-12-28 00:39:44,372 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-28 00:39:45,690 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:40:13,323 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:40:13,407 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:40:35,837 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+INFO 2021-12-28 00:40:35,841 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 200 1526
+INFO 2021-12-28 00:41:39,597 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+INFO 2021-12-28 00:41:39,610 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 200 1526
+INFO 2021-12-28 00:41:49,591 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:41:49,691 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:43:41,454 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\urls.py changed, reloading.
+INFO 2021-12-28 00:43:42,981 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-28 00:43:53,961 exceptions 10 出错视图view:CourseChapterView,错误是'CourseChapterView' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+INFO 2021-12-28 00:43:53,962 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 200 158
+INFO 2021-12-28 00:43:54,052 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+ERROR 2021-12-28 00:44:01,900 exceptions 10 出错视图view:CourseChapterView,错误是'CourseChapterView' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+INFO 2021-12-28 00:44:01,901 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 200 158
+INFO 2021-12-28 00:44:01,994 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+INFO 2021-12-28 00:44:33,272 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-28 00:44:34,851 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:44:35,303 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 200 1023
+INFO 2021-12-28 00:44:35,309 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+INFO 2021-12-28 00:46:52,335 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2021-12-28 00:46:53,712 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-28 00:46:54,335 basehttp 161 "GET /course/free/3/ HTTP/1.1" 200 698
+INFO 2021-12-28 00:46:54,339 basehttp 161 "GET /course/chapters/?course=3 HTTP/1.1" 200 200
+INFO 2021-12-28 00:47:38,293 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:47:38,357 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:47:39,762 basehttp 161 "GET /course/chapters/?course=2 HTTP/1.1" 200 193
+INFO 2021-12-28 00:47:39,767 basehttp 161 "GET /course/free/2/ HTTP/1.1" 200 1015
+INFO 2021-12-28 00:47:39,783 basehttp 161 "GET /media/teacher/mjj_icon.png HTTP/1.1" 200 19881
+INFO 2021-12-28 00:47:42,889 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:47:42,980 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:47:44,091 basehttp 161 "GET /course/free/1/ HTTP/1.1" 200 1422
+INFO 2021-12-28 00:47:44,099 basehttp 161 "GET /media/teacher/alex_icon.png HTTP/1.1" 200 130317
+INFO 2021-12-28 00:47:44,112 basehttp 161 "GET /course/chapters/?course=1 HTTP/1.1" 200 632
+INFO 2021-12-28 00:47:49,896 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:47:49,977 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:47:50,899 basehttp 161 "GET /course/free/2/ HTTP/1.1" 200 1015
+INFO 2021-12-28 00:47:50,901 basehttp 161 "GET /course/chapters/?course=2 HTTP/1.1" 200 193
+INFO 2021-12-28 00:47:52,984 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2021-12-28 00:47:53,047 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2021-12-28 00:47:54,888 basehttp 161 "GET /course/free/1/ HTTP/1.1" 200 1422
+INFO 2021-12-28 00:47:54,890 basehttp 161 "GET /course/chapters/?course=1 HTTP/1.1" 200 632

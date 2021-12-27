@@ -220,5 +220,8 @@ class CourseSection(BaseModel):
         verbose_name = "课时"
         verbose_name_plural = verbose_name
 
+    def section_type_name(self):
+        return self.get_section_type_display()
+
     def __str__(self):
         return "%s-%s" % (self.chapter, self.name)
