@@ -51,10 +51,10 @@ class CourseView(GenericViewSet, ListModelMixin, RetrieveModelMixin):
     """
 
     # 使用的扩展django-filter 配置的搜索字段
-    # filter_fields = ['course_category']
+    filter_fields = ['course_category']
 
     # 使用自定制的filter 进行区间过滤
-    filter_class = CourseFilterSet
+    # filter_class = CourseFilterSet
 
 
 class CourseChapterView(GenericViewSet, ListModelMixin):
@@ -67,3 +67,20 @@ class CourseChapterView(GenericViewSet, ListModelMixin):
     # 查出来所有章节，需要根据 course 对章节进行过滤
     filter_backends = [DjangoFilterBackend]
     filter_fields = ['course']
+
+
+class CourseSearchView(GenericViewSet,ListModelMixin):
+    """
+    查询课程接口 根据name 查询
+    """
+    queryset = models.Course.objects.filter(is_delete=False,
+                                            is_show=True).order_by('orders')
+    serializer_class = serializer.CourseModelSerializer
+    # 分页
+    pagination_class = PageNumberPagination
+
+    # 排序，过滤
+    filter_backends = [SearchFilter]
+
+    # 配置过滤的字段
+    search_fields = ['name']
