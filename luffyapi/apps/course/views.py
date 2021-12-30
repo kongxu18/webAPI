@@ -51,10 +51,10 @@ class CourseView(GenericViewSet, ListModelMixin, RetrieveModelMixin):
     """
 
     # 使用的扩展django-filter 配置的搜索字段
-    filter_fields = ['course_category']
+    # filter_fields = ['course_category']
 
     # 使用自定制的filter 进行区间过滤
-    # filter_class = CourseFilterSet
+    filter_class = CourseFilterSet
 
 
 class CourseChapterView(GenericViewSet, ListModelMixin):
