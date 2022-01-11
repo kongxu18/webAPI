@@ -14,22 +14,25 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,re_path,include
+from django.urls import path, re_path, include
 from django.views.static import serve
 from django.conf import settings
 
 # xadmin 依赖
 import xadmin
+
 xadmin.autodiscover()
 # xyersion 模块自动注册需要版本控制的model
 from xadmin.plugins import xversion
+
 xversion.register_models()
 
 urlpatterns = [
     path('xadmin/', xadmin.site.urls),
-    path('home/',include('home.urls')),
-    path('user/',include('user.urls')),
-    path('course/',include('course.urls')),
+    path('home/', include('home.urls')),
+    path('user/', include('user.urls')),
+    path('course/', include('course.urls')),
+    path('order/', include('order.urls')),
 
-    re_path('media/(?P<path>.*)',serve,{'document_root':settings.MEDIA_ROOT}),
+    re_path('media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT}),
 ]
