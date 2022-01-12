@@ -240,7 +240,17 @@ CACHES = {
         'OPTIONS': {
             'CLIENT_CLASS': 'django_redis.client.DefaultClient',
             'CONNECTION_POOL_KWARGS': {"max_connections": 100},
-            'PASSWORD':'333333',
+            'PASSWORD': '333333',
         }
     }
 }
+
+"""
+支付宝回调的地址
+"""
+BASE_URL = 'http://127.0.0.1:8000'
+LUFFY_URL = ' http://127.0.0.1:8080'
+# 支付宝异步回调地址
+NOTIFY_URL = BASE_URL + '/order/success/'
+# 支付宝同步回调前端地址
+RETURN_URL = LUFFY_URL + '/pay/success/'

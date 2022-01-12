@@ -864,3 +864,135 @@ INFO 2021-12-29 01:43:50,799 autoreload 637 Watching for file changes with StatR
 INFO 2021-12-29 01:43:53,035 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id&course_category=1 HTTP/1.1" 301 0
 INFO 2021-12-29 01:47:46,260 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-12-29 01:47:48,322 basehttp 161 "GET /course/free?page=1&size=5&ordering=-id&course_category=1 HTTP/1.1" 301 0
+INFO 2022-01-13 00:41:45,518 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 00:42:08,129 log 224 Internal Server Error: /order/pay
+Traceback (most recent call last):
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "D:\Virtualenvs\luffy\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/order/pay/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-01-13 00:42:08,132 basehttp 161 "POST /order/pay HTTP/1.1" 500 75921
+ERROR 2022-01-13 00:42:12,303 exceptions 10 出错视图view:PayView,错误是身份认证信息未提供。
+INFO 2022-01-13 00:42:12,304 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 75
+INFO 2022-01-13 00:42:26,801 basehttp 161 "POST /user/code_login/ HTTP/1.1" 200 57
+INFO 2022-01-13 00:43:26,439 basehttp 161 "POST /user/code_login/ HTTP/1.1" 200 230
+ERROR 2022-01-13 00:44:02,366 exceptions 10 出错视图view:PayView,错误是身份认证信息未提供。
+INFO 2022-01-13 00:44:02,367 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 75
+ERROR 2022-01-13 00:44:18,468 exceptions 10 出错视图view:PayView,错误是The field 'course' was declared on serializer OrderSerializer, but has not been included in the 'fields' option.
+INFO 2022-01-13 00:44:18,469 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 148
+INFO 2022-01-13 00:45:20,441 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 00:45:21,851 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 00:45:22,417 exceptions 10 出错视图view:PayView,错误是{'subject': [ErrorDetail(string='该字段是必填项。', code='required')], 'course': [ErrorDetail(string='该字段是必填项。', code='required')]}
+INFO 2022-01-13 00:45:22,420 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 110
+INFO 2022-01-13 00:47:10,068 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 00:47:11,552 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-01-13 00:47:23,073 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 00:47:24,645 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 00:47:25,315 exceptions 10 出错视图view:PayView,错误是{'total_amount': [ErrorDetail(string='该字段是必填项。', code='required')], 'subject': [ErrorDetail(string='该字段是必填项。', code='required')], 'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')], 'course': [ErrorDetail(string='该字段是必填项。', code='required')]}
+INFO 2022-01-13 00:47:25,316 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 194
+ERROR 2022-01-13 00:48:42,103 exceptions 10 出错视图view:PayView,错误是{'course': [ErrorDetail(string='类型错误。期望为主键，获得的类型为 str。', code='incorrect_type')]}
+INFO 2022-01-13 00:48:42,104 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 105
+ERROR 2022-01-13 00:49:15,914 exceptions 10 出错视图view:PayView,错误是{'total_amount': [ErrorDetail(string='该字段是必填项。', code='required')], 'subject': [ErrorDetail(string='该字段是必填项。', code='required')], 'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')], 'course': [ErrorDetail(string='该字段是必填项。', code='required')]}
+INFO 2022-01-13 00:49:15,915 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 194
+ERROR 2022-01-13 00:50:36,623 exceptions 10 出错视图view:PayView,错误是unsupported operand type(s) for +=: 'NoneType' and 'decimal.Decimal'
+INFO 2022-01-13 00:50:36,624 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 104
+ERROR 2022-01-13 00:50:53,031 exceptions 10 出错视图view:PayView,错误是unsupported operand type(s) for +=: 'NoneType' and 'decimal.Decimal'
+INFO 2022-01-13 00:50:53,032 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 104
+ERROR 2022-01-13 00:51:11,341 exceptions 10 出错视图view:PayView,错误是unsupported operand type(s) for +=: 'NoneType' and 'decimal.Decimal'
+INFO 2022-01-13 00:51:11,342 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 104
+INFO 2022-01-13 00:52:41,023 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 00:52:42,497 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 00:52:43,148 exceptions 10 出错视图view:PayView,错误是unsupported operand type(s) for +=: 'NoneType' and 'decimal.Decimal'
+INFO 2022-01-13 00:52:43,149 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 104
+INFO 2022-01-13 00:53:01,716 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 00:53:03,105 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 00:53:04,226 exceptions 10 出错视图view:PayView,错误是AliPayException: code:None, message:Unsupported sign type ('RSA2',)
+INFO 2022-01-13 00:53:04,227 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 103
+ERROR 2022-01-13 00:54:53,541 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 00:54:53,542 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 00:56:08,399 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\libs\al_pay\setting.py changed, reloading.
+INFO 2022-01-13 00:56:09,699 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 00:56:10,391 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 00:56:10,392 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+ERROR 2022-01-13 00:57:39,839 exceptions 10 出错视图view:PayView,错误是{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+INFO 2022-01-13 00:57:39,840 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 72
+ERROR 2022-01-13 00:57:48,060 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 00:57:48,061 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+ERROR 2022-01-13 00:58:07,216 exceptions 10 出错视图view:PayView,错误是{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+INFO 2022-01-13 00:58:07,216 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 72
+ERROR 2022-01-13 00:58:13,272 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 00:58:13,273 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 00:59:31,382 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 00:59:33,393 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 00:59:34,343 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 00:59:34,344 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+ERROR 2022-01-13 00:59:36,118 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 00:59:36,119 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:00:10,599 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 01:00:11,966 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:00:14,431 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:00:14,433 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+ERROR 2022-01-13 01:00:24,967 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:00:24,969 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:00:57,751 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 01:00:59,107 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:01:00,115 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:01:00,116 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:02:04,500 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 01:02:05,963 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-01-13 01:02:13,180 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 01:02:14,506 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:02:15,490 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:02:15,491 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+ERROR 2022-01-13 01:02:20,504 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:02:20,505 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:03:10,229 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 01:03:12,007 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:03:12,688 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:03:12,689 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:03:28,195 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 01:03:29,670 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:03:31,626 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:03:31,628 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:04:21,046 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 01:04:22,623 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:04:23,593 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:04:23,595 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:04:55,092 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 01:04:56,537 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:04:57,429 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:04:57,430 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:05:46,785 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:05:48,358 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:05:48,362 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:06:07,250 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:06:40,189 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:06:40,200 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:06:51,019 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:07:15,134 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:07:15,143 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:09:09,927 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:09:12,384 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:09:12,385 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:10:15,400 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\libs\al_pay\setting.py changed, reloading.
+INFO 2022-01-13 01:10:16,935 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 01:10:18,052 exceptions 10 出错视图view:PayView,错误是'_io.TextIOWrapper' object cannot be interpreted as an integer
+INFO 2022-01-13 01:10:18,053 basehttp 161 "POST /order/pay/ HTTP/1.1" 200 98
+INFO 2022-01-13 01:14:29,857 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 881
+INFO 2022-01-13 01:14:47,500 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\apps\order\serializer.py changed, reloading.
+INFO 2022-01-13 01:14:49,088 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-01-13 01:16:43,221 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 881
+INFO 2022-01-13 01:17:18,771 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 889
+INFO 2022-01-13 01:18:55,114 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\libs\al_pay\setting.py changed, reloading.
+INFO 2022-01-13 01:18:56,399 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-01-13 01:18:57,131 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 895
+INFO 2022-01-13 01:20:58,086 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\libs\al_pay\setting.py changed, reloading.
+INFO 2022-01-13 01:20:59,396 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-01-13 01:21:01,377 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 890
+INFO 2022-01-13 01:21:48,846 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\libs\al_pay\setting.py changed, reloading.
+INFO 2022-01-13 01:21:50,153 autoreload 637 Watching for file changes with StatReloader
