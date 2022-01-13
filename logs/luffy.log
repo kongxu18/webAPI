@@ -996,3 +996,48 @@ INFO 2022-01-13 01:20:59,396 autoreload 637 Watching for file changes with StatR
 INFO 2022-01-13 01:21:01,377 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 890
 INFO 2022-01-13 01:21:48,846 autoreload 251 D:\PythonProjects\djangoProject\luffyapi\luffyapi\libs\al_pay\setting.py changed, reloading.
 INFO 2022-01-13 01:21:50,153 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-01-13 23:47:32,856 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-01-13 23:47:37,549 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2022-01-13 23:47:37,551 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2022-01-13 23:47:37,658 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 295
+INFO 2022-01-13 23:47:37,683 basehttp 161 "GET /media/banner/banner1_a9XFvhz.png HTTP/1.1" 200 115271
+INFO 2022-01-13 23:47:37,687 basehttp 161 "GET /media/banner/banner3_IMOiS62.png HTTP/1.1" 200 111031
+INFO 2022-01-13 23:47:37,697 basehttp 161 "GET /media/banner/banner2_hpmtsKz.png HTTP/1.1" 200 772079
+INFO 2022-01-13 23:47:39,170 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2022-01-13 23:47:39,236 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2022-01-13 23:47:39,256 basehttp 161 "GET /media/courses/alex_python.png HTTP/1.1" 200 87343
+INFO 2022-01-13 23:47:39,258 basehttp 161 "GET /media/courses/lyy_linux.png HTTP/1.1" 200 90593
+INFO 2022-01-13 23:47:39,265 basehttp 161 "GET /media/courses/mjj_python.png HTTP/1.1" 200 444859
+INFO 2022-01-13 23:47:52,902 basehttp 161 "GET /user/check_telephone/?telephone=15000876583 HTTP/1.1" 200 34
+INFO 2022-01-13 23:47:55,832 basehttp 161 "OPTIONS /user/code_login/ HTTP/1.1" 200 0
+INFO 2022-01-13 23:47:55,903 basehttp 161 "POST /user/code_login/ HTTP/1.1" 200 230
+INFO 2022-01-13 23:50:12,087 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2022-01-13 23:50:12,158 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2022-01-13 23:50:15,273 basehttp 161 "OPTIONS /order/pay/ HTTP/1.1" 200 0
+INFO 2022-01-13 23:50:15,717 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 938
+INFO 2022-01-13 23:53:33,031 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 936
+INFO 2022-01-13 23:54:09,411 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 926
+INFO 2022-01-13 23:54:13,318 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 932
+INFO 2022-01-13 23:55:57,140 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 942
+ERROR 2022-01-13 23:56:02,675 exceptions 10 出错视图view:TestView,错误是'name'
+INFO 2022-01-13 23:56:02,676 basehttp 161 "GET /home/ HTTP/1.1" 200 43
+INFO 2022-01-13 23:56:04,185 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2022-01-13 23:56:04,235 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2022-01-13 23:56:05,644 basehttp 161 "OPTIONS /order/pay/ HTTP/1.1" 200 0
+INFO 2022-01-13 23:56:05,721 basehttp 161 "POST /order/pay/ HTTP/1.1" 201 926
+ERROR 2022-01-13 23:56:21,628 exceptions 10 出错视图view:BannerView,错误是Error while reading from socket: (10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)
+INFO 2022-01-13 23:56:21,629 basehttp 161 "GET /home/banner/ HTTP/1.1" 200 159
+INFO 2022-01-13 23:58:00,236 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2022-01-13 23:58:00,293 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+INFO 2022-01-13 23:59:13,063 basehttp 161 "GET /course/categories/ HTTP/1.1" 200 50
+INFO 2022-01-13 23:59:13,116 basehttp 161 "GET /course/free/?ordering=-id&page_size=5&page=1 HTTP/1.1" 200 3189
+WARNING 2022-01-14 00:00:31,934 log 224 Not Found: /order/success/
+WARNING 2022-01-14 00:00:31,935 basehttp 161 "GET /order/success/?charset=utf-8&out_trade_no=e6d35459-ae30-4383-9ffc-85ce06306202&method=alipay.trade.page.pay.return&total_amount=39.00&sign=oZcuek7q9aa8vEyOxyh%2BzkxFqd9Ln5zv9QSdWl8jKrvq%2FwBzrSebFcjmULLVNYiyzrRD1dpet3qubkAH9XSCZi9VcrlSWEa514jfhwa4%2FWngXR%2FuN4RtvDBUlTGk8EnXD5yfiumkdRJnt1oILpAtMvshpeH6uMytMfs1wuyuLfgbf8cRYT3oLJB4YB4tQF%2FU%2F0RrNGK%2Bd9TlWVi8L15b7h%2FeObxIBU5c61QyYc1010GGEQwrIdWDJrg144ZKTifAqMoZv0d0rkBSImvnSIUQmaomzxy75WJ6arMoO00pLw73s0iHAHwZix%2FguPB9uOj2vSsLF%2FujXgZ5dckacsda6g%3D%3D&trade_no=2022011322001448880503778832&auth_app_id=2021000118685360&version=1.0&app_id=2021000118685360&sign_type=RSA2&seller_id=2088621957471428&timestamp=2022-01-13%2023%3A56%3A28 HTTP/1.1" 404 3504
+WARNING 2022-01-14 00:09:24,793 log 224 Not Found: /order/success/
+WARNING 2022-01-14 00:09:24,794 basehttp 161 "GET /order/success/?charset=utf-8&out_trade_no=e6d35459-ae30-4383-9ffc-85ce06306202&method=alipay.trade.page.pay.return&total_amount=39.00&sign=oZcuek7q9aa8vEyOxyh%2BzkxFqd9Ln5zv9QSdWl8jKrvq%2FwBzrSebFcjmULLVNYiyzrRD1dpet3qubkAH9XSCZi9VcrlSWEa514jfhwa4%2FWngXR%2FuN4RtvDBUlTGk8EnXD5yfiumkdRJnt1oILpAtMvshpeH6uMytMfs1wuyuLfgbf8cRYT3oLJB4YB4tQF%2FU%2F0RrNGK%2Bd9TlWVi8L15b7h%2FeObxIBU5c61QyYc1010GGEQwrIdWDJrg144ZKTifAqMoZv0d0rkBSImvnSIUQmaomzxy75WJ6arMoO00pLw73s0iHAHwZix%2FguPB9uOj2vSsLF%2FujXgZ5dckacsda6g%3D%3D&trade_no=2022011322001448880503778832&auth_app_id=2021000118685360&version=1.0&app_id=2021000118685360&sign_type=RSA2&seller_id=2088621957471428&timestamp=2022-01-13%2023%3A56%3A28 HTTP/1.1" 404 3504
+WARNING 2022-01-14 00:10:46,129 log 224 Not Found: /order/success/
+WARNING 2022-01-14 00:10:46,130 basehttp 161 "GET /order/success/?charset=utf-8&out_trade_no=e6d35459-ae30-4383-9ffc-85ce06306202&method=alipay.trade.page.pay.return&total_amount=39.00&sign=oZcuek7q9aa8vEyOxyh%2BzkxFqd9Ln5zv9QSdWl8jKrvq%2FwBzrSebFcjmULLVNYiyzrRD1dpet3qubkAH9XSCZi9VcrlSWEa514jfhwa4%2FWngXR%2FuN4RtvDBUlTGk8EnXD5yfiumkdRJnt1oILpAtMvshpeH6uMytMfs1wuyuLfgbf8cRYT3oLJB4YB4tQF%2FU%2F0RrNGK%2Bd9TlWVi8L15b7h%2FeObxIBU5c61QyYc1010GGEQwrIdWDJrg144ZKTifAqMoZv0d0rkBSImvnSIUQmaomzxy75WJ6arMoO00pLw73s0iHAHwZix%2FguPB9uOj2vSsLF%2FujXgZ5dckacsda6g%3D%3D&trade_no=2022011322001448880503778832&auth_app_id=2021000118685360&version=1.0&app_id=2021000118685360&sign_type=RSA2&seller_id=2088621957471428&timestamp=2022-01-13%2023%3A56%3A28 HTTP/1.1" 404 3504
+WARNING 2022-01-14 00:10:51,038 log 224 Not Found: /order/success/
+WARNING 2022-01-14 00:10:51,039 basehttp 161 "GET /order/success/?charset=utf-8&out_trade_no=e6d35459-ae30-4383-9ffc-85ce06306202&method=alipay.trade.page.pay.return&total_amount=39.00&sign=oZcuek7q9aa8vEyOxyh%2BzkxFqd9Ln5zv9QSdWl8jKrvq%2FwBzrSebFcjmULLVNYiyzrRD1dpet3qubkAH9XSCZi9VcrlSWEa514jfhwa4%2FWngXR%2FuN4RtvDBUlTGk8EnXD5yfiumkdRJnt1oILpAtMvshpeH6uMytMfs1wuyuLfgbf8cRYT3oLJB4YB4tQF%2FU%2F0RrNGK%2Bd9TlWVi8L15b7h%2FeObxIBU5c61QyYc1010GGEQwrIdWDJrg144ZKTifAqMoZv0d0rkBSImvnSIUQmaomzxy75WJ6arMoO00pLw73s0iHAHwZix%2FguPB9uOj2vSsLF%2FujXgZ5dckacsda6g%3D%3D&trade_no=2022011322001448880503778832&auth_app_id=2021000118685360&version=1.0&app_id=2021000118685360&sign_type=RSA2&seller_id=2088621957471428&timestamp=2022-01-13%2023%3A56%3A28 HTTP/1.1" 404 3504
+WARNING 2022-01-14 00:11:41,171 log 224 Not Found: /order/success/
+WARNING 2022-01-14 00:11:41,172 basehttp 161 "GET /order/success/?charset=utf-8&out_trade_no=e6d35459-ae30-4383-9ffc-85ce06306202&method=alipay.trade.page.pay.return&total_amount=39.00&sign=oZcuek7q9aa8vEyOxyh%2BzkxFqd9Ln5zv9QSdWl8jKrvq%2FwBzrSebFcjmULLVNYiyzrRD1dpet3qubkAH9XSCZi9VcrlSWEa514jfhwa4%2FWngXR%2FuN4RtvDBUlTGk8EnXD5yfiumkdRJnt1oILpAtMvshpeH6uMytMfs1wuyuLfgbf8cRYT3oLJB4YB4tQF%2FU%2F0RrNGK%2Bd9TlWVi8L15b7h%2FeObxIBU5c61QyYc1010GGEQwrIdWDJrg144ZKTifAqMoZv0d0rkBSImvnSIUQmaomzxy75WJ6arMoO00pLw73s0iHAHwZix%2FguPB9uOj2vSsLF%2FujXgZ5dckacsda6g%3D%3D&trade_no=2022011322001448880503778832&auth_app_id=2021000118685360&version=1.0&app_id=2021000118685360&sign_type=RSA2&seller_id=2088621957471428&timestamp=2022-01-13%2023%3A56%3A28 HTTP/1.1" 404 3504
