@@ -59,7 +59,7 @@ class SuccessView(APIView):
         """
         from luffyapi.utils.logger import log
         from luffyapi.libs.al_pay import alipay
-        data = request.data
+        data = request.data.dict()
         out_trade_no = data.get('out_trade_no', None)
         gmt_payment = data.get('gmt_payment', None)
         signature = data.pop('sign')
