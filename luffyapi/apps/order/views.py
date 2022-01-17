@@ -44,9 +44,9 @@ class SuccessView(APIView):
         out_trade_no = request.query_params.get('out_trade_no')
         order = models.Order.objects.filter(out_trade_no=out_trade_no).first()
         if order.order_status == 1:
-            return Response('支付')
+            return Response(True)
         elif order.order_status == 0:
-            return Response('未支付')
+            return Response(False)
         return Response('后台收到')
 
     def post(self, request, *args, **kwargs):
@@ -57,4 +57,20 @@ class SuccessView(APIView):
         :param kwargs:
         :return:
         """
-        ...
+        from luffyapi.utils.logger import log
+        from luffyapi.libs.al_pay import alipay
+        data = request.data
+        out_trade_no = data.get('out_trade_no', None)
+        gmt_payment = data.get('gmt_payment', None)
+        signature = data.pop('sign')
+        # 验证签名
+
+        success = alipay.verify(data, signature)
+
+        if success and data['trade_status'] in ('TRADE_SUCCESS', 'TRADE_FINISHED'):
+            models.Order.objects.filter(out_trade_no=out_trade_no).update(order_status=1, pay_time=gmt_payment)
+            log.info('%s订单支付成功' % out_trade_no)
+            return Response('success')
+        else:
+            log.info('%s订单支付失败' % out_trade_no)
+            return Response('error')
